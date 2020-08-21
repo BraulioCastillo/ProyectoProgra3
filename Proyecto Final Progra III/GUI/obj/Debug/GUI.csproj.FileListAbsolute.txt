@@ -7,4 +7,3 @@ C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progr
 C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\GUI\obj\Debug\GUI.exe
 C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\GUI\obj\Debug\GUI.pdb
-C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\GUI\obj\Debug\GUI.Menu_Principal.resources

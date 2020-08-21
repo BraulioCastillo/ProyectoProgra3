@@ -1,0 +1,5 @@
+C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\Articulos\bin\Debug\Articulos.dll
+C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\Articulos\bin\Debug\Articulos.pdb
+C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\Articulos\obj\Debug\Articulos.csproj.CoreCompileInputs.cache
+C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\Articulos\obj\Debug\Articulos.dll
+C:\Users\Allan\Source\Repos\BraulioCastillo\ProyectoProgra3\Proyecto Final Progra III\Articulos\obj\Debug\Articulos.pdb
