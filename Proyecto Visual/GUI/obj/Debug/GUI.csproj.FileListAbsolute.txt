@@ -1,0 +1,72 @@
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Principal.resources
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\Capa_Entidad.dll
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\Capa_Negocio.dll
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\Capa_Datos.dll
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\Capa_Entidad.pdb
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\Capa_Negocio.pdb
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\bin\Debug\Capa_Datos.pdb
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Allan\Downloads\LoginMenu\WindowsFormsApp1\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\ProyectoFinal.exe.config
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\ProyectoFinal.exe
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\ProyectoFinal.pdb
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\Capa_Entidad.dll
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\Capa_Negocio.dll
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\Capa_Datos.dll
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\Capa_Entidad.pdb
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\Capa_Negocio.pdb
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\bin\Debug\Capa_Datos.pdb
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\WindowsFormsApp1.Principal.resources
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\ProyectoFinal.Properties.Resources.resources
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\ProyectoFinal.exe
+C:\Users\Allan\Desktop\LoginMenu\Capa _GUI\obj\Debug\ProyectoFinal.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\WindowsFormsApp1.Principal.resources
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\ProyectoFinal.Properties.Resources.resources
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\ProyectoFinal.exe
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\ProyectoFinal.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\ProyectoFinal.exe.config
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\ProyectoFinal.exe
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\ProyectoFinal.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\Capa_Entidad.dll
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\Capa_Negocio.dll
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\Capa_Datos.dll
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\Capa_Entidad.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\Capa_Negocio.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\bin\Debug\Capa_Datos.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\Capa _GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\ProyectoFinal.exe.config
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\ProyectoFinal.exe
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\ProyectoFinal.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\Capa_Entidad.dll
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\Capa_Negocio.dll
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\Capa_Datos.dll
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\Capa_Entidad.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\Capa_Negocio.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\bin\Debug\Capa_Datos.pdb
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\WindowsFormsApp1.Principal.resources
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\ProyectoFinal.Properties.Resources.resources
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\ProyectoFinal.exe
+C:\Users\Allan\Desktop\ProyectoFinal\GUI\obj\Debug\ProyectoFinal.pdb
