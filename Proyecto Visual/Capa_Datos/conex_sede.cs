@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Capa_Entidad;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
@@ -97,6 +98,29 @@ namespace Capa_Datos
                 MessageBox.Show("Error al modificar la sede");
             }
 
+        }
+
+        public Sede cargaDatosSede(int id)
+        {
+            Sede sede = new Sede();
+            try
+            {
+                cnx = new SqlConnection(conection);
+                cnx.Open();
+                cmd = new SqlCommand("selec * from Sede where Id = " + id, cnx);
+                cmd.ExecuteNonQuery();
+                dataReader = cmd.ExecuteReader();
+                sede.IDEncargado = int.Parse(dataReader["ID_encargado"].ToString());
+                sede.Localidad = dataReader["localidad"].ToString();
+                sede.IDSuper = int.Parse(dataReader["ID_Supermercado"].ToString());
+                sede.IDSede = int.Parse(dataReader["Id"].ToString());
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Hubo un problema al cargar los datos, por favor intente nuevamente");
+            }
+            return sede;
         }
 
         #endregion

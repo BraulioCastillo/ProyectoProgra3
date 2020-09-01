@@ -73,6 +73,7 @@
             // 
             // txb_idDueño
             // 
+            this.txb_idDueño.Enabled = false;
             this.txb_idDueño.Location = new System.Drawing.Point(204, 185);
             this.txb_idDueño.Name = "txb_idDueño";
             this.txb_idDueño.Size = new System.Drawing.Size(121, 20);
@@ -154,6 +155,7 @@
             this.btn_actualizarsupermercado.TabIndex = 8;
             this.btn_actualizarsupermercado.Text = "Actualizar";
             this.btn_actualizarsupermercado.UseVisualStyleBackColor = true;
+            this.btn_actualizarsupermercado.Click += new System.EventHandler(this.btn_actualizarsupermercado_Click);
             // 
             // btncancelar
             // 

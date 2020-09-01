@@ -40,17 +40,29 @@ namespace ProyectoFinal
 
         private void cmb_iddueñosupermercado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Supermercado supermercado = conex_Super.cargaDatosSuper(int.Parse(cmb_Supermercado.Text);
+            Capa_Negocio.Supermercado supermercado = conex_Super.cargaDatosSuper(int.Parse(cmb_Supermercado.Text));
             try
             {
-                txb_localidad.Text = supermercado.Lo;
+                txb_localidad.Text = supermercado.Localidad;
                 txb_nombresupermercado.Text = supermercado.Nombre;
-                txb_idDueño.Text = supermercado.IDEncargado;
+                txb_idDueño.Text = "" + supermercado.IDEncargado;
             }
             catch (Exception)
             {
 
                 MessageBox.Show("Hubo un problema, por favor intentelo nuevamente");
+            }
+        }
+
+        private void btn_actualizarsupermercado_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               conex_Super.modificaSuper(int.Parse(cmb_Supermercado.Text), txb_nombresupermercado.Text, txb_localidad.Text, int.Parse(txb_idDueño.Text));
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Hubo un problema al actualizar, por favor intente nuevamente");
             }
         }
     }

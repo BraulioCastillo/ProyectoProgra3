@@ -74,7 +74,7 @@ namespace Capa_Datos
 
 
         #region modificaSuper
-        public void modificaSuper(int id, string nombre, string localidad, string IDDueño)
+        public void modificaSuper(int id, string nombre, string localidad, int IDDueño)
         {
 
             
