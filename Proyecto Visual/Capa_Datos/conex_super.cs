@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Capa_Negocio;
+using System;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Capa_Datos
 {
-    class conex_super
+    public class conex_super
     {
 
         public SqlCommand cmd;
@@ -97,6 +94,30 @@ namespace Capa_Datos
             }
 
         }
+
+        public Supermercado cargaDatosSuper(int id)
+        {
+            Supermercado super = new Supermercado();
+            try
+            {
+                cnx = new SqlConnection(conection);
+                cnx.Open();
+                cmd = new SqlCommand("selec * from Supermercado where Id = " + id, cnx);
+                cmd.ExecuteNonQuery();
+                dataReader = cmd.ExecuteReader();
+                super.IDEncargado = int.Parse(dataReader["ID_dueño"].ToString());
+                super.IDSuper = int.Parse(dataReader["ID"].ToString());
+                super.Nombre = dataReader["nombre"].ToString();
+                super.Localidad = dataReader["localidad"].ToString();
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Hubo un problema al cargar los datos, por favor intente nuevamente");
+            }
+            return super;
+        }
+
         #endregion
 
         #endregion

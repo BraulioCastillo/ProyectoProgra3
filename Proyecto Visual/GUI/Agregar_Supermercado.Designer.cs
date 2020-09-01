@@ -68,6 +68,7 @@
             this.btn_agregarsupermercado.TabIndex = 6;
             this.btn_agregarsupermercado.Text = "Agregar ";
             this.btn_agregarsupermercado.UseVisualStyleBackColor = true;
+            this.btn_agregarsupermercado.Click += new System.EventHandler(this.btn_agregarsupermercado_Click);
             // 
             // groupBox1
             // 

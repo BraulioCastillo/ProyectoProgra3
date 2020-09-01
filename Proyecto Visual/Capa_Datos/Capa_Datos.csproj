@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="conex_art.cs" />
+    <Compile Include="conex_detalle.cs" />
+    <Compile Include="conex_factura.cs" />
     <Compile Include="conex_sede.cs" />
     <Compile Include="conex_super.cs" />
+    <Compile Include="conex_ventas.cs" />
     <Compile Include="D_Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

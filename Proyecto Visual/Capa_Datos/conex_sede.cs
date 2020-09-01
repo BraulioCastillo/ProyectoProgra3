@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Capa_Datos
 {
-    class conex_sede
+    public class conex_sede
     {
 
         public SqlCommand cmd;

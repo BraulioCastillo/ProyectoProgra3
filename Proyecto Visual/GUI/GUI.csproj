@@ -46,6 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actualizar_Articulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Articulo.Designer.cs">
+      <DependentUpon>Actualizar_Articulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Sede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Sede.Designer.cs">
+      <DependentUpon>Actualizar_Sede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Supermercado.Designer.cs">
+      <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Sede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Sede.Designer.cs">
+      <DependentUpon>Agregar_Sede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Supermercado.Designer.cs">
+      <DependentUpon>Agregar_Supermercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bodega.Designer.cs">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas_Productos.Designer.cs">
+      <DependentUpon>Consultas_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta_Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_Supermercado.Designer.cs">
+      <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresar_Articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresar_Articulos.Designer.cs">
+      <DependentUpon>Ingresar_Articulos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +114,45 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Usuarios.Designer.cs">
+      <DependentUpon>Registro_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supermercado.Designer.cs">
+      <DependentUpon>Supermercado.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Actualizar_Articulo.resx">
+      <DependentUpon>Actualizar_Articulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Sede.resx">
+      <DependentUpon>Actualizar_Sede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Supermercado.resx">
+      <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Sede.resx">
+      <DependentUpon>Agregar_Sede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Supermercado.resx">
+      <DependentUpon>Agregar_Supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bodega.resx">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas_Productos.resx">
+      <DependentUpon>Consultas_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta_Supermercado.resx">
+      <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresar_Articulos.resx">
+      <DependentUpon>Ingresar_Articulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -69,6 +162,12 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Usuarios.resx">
+      <DependentUpon>Registro_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supermercado.resx">
+      <DependentUpon>Supermercado.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,6 +183,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Capa_Datos\Capa_Datos.csproj">
+      <Project>{18582f97-8c00-4edb-983a-868ecc7095c3}</Project>
+      <Name>Capa_Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Capa_Entidad\Capa_Entidad.csproj">
       <Project>{b12a4f9f-c7d8-422d-9737-bc8978e4c3f8}</Project>
       <Name>Capa_Entidad</Name>
@@ -95,6 +198,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProyectoFinal.sln" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
