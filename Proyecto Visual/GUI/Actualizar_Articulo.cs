@@ -13,7 +13,7 @@ namespace ProyectoFinal
 {
     public partial class Actualizar_Articulo : Form
     {
-        conex_art conexion = new conex_art("");
+        conex_art conexion = new conex_art("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
         public Actualizar_Articulo()
         {
             InitializeComponent();
@@ -65,6 +65,11 @@ namespace ProyectoFinal
             {
                 MessageBox.Show("Todos los Campos son requeridos", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void Actualizar_Articulo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

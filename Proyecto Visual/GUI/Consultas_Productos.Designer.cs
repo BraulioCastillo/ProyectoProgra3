@@ -191,6 +191,7 @@
             this.Controls.Add(this.gbx_consultar);
             this.Name = "Consultas_Productos";
             this.Text = "Consultas Productos";
+            this.Load += new System.EventHandler(this.Consultas_Productos_Load);
             this.gbx_consultar.ResumeLayout(false);
             this.gbx_consultar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

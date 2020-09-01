@@ -21,5 +21,10 @@ namespace ProyectoFinal
         {
             this.Close();
         }
+
+        private void Actualizar_Sede_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

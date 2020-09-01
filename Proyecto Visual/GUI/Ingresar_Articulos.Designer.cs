@@ -220,6 +220,7 @@
             this.Controls.Add(this.gbx_insertarProducto);
             this.Name = "Ingresar_Articulos";
             this.Text = "Ingresar Articulos";
+            this.Load += new System.EventHandler(this.Ingresar_Articulos_Load);
             this.gbx_insertarProducto.ResumeLayout(false);
             this.gbx_insertarProducto.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_imagen)).EndInit();

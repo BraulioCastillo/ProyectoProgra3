@@ -180,6 +180,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Actualizar_Sede";
             this.Text = "Actualizar Sede";
+            this.Load += new System.EventHandler(this.Actualizar_Sede_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

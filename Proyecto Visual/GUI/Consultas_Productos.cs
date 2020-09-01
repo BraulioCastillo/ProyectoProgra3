@@ -27,7 +27,7 @@ namespace ProyectoFinal
 
         private void btn_consultar_Click(object sender, EventArgs e)
         {
-            conex_art conexion = new conex_art(""); //WARNING!!!!!!!!!!!!!!!!!!!!! STRING DE CONEXION
+            conex_art conexion = new conex_art("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True"); //WARNING!!!!!!!!!!!!!!!!!!!!! STRING DE CONEXION
             DataSet ds = new DataSet();
             SqlDataAdapter da;
             DataRow dr;
@@ -74,6 +74,11 @@ namespace ProyectoFinal
             {
                 MessageBox.Show("Favor digite el código del producto a eliminar", "Advertencia!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void Consultas_Productos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

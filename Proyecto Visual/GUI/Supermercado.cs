@@ -61,5 +61,10 @@ namespace ProyectoFinal
         {
 
         }
+
+        private void Supermercado_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace ProyectoFinal
     public partial class Ingresar_Articulos : Form
     {
 
-        conex_art conexion = new conex_art("");  //WARNING STRING DE CONEXION
+        conex_art conexion = new conex_art("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");  //WARNING STRING DE CONEXION
         public Ingresar_Articulos()
         {
             InitializeComponent();
@@ -66,6 +66,11 @@ namespace ProyectoFinal
             {
                 MessageBox.Show("Todos los Campos son requeridos", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void Ingresar_Articulos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
