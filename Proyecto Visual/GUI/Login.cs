@@ -13,7 +13,7 @@ using ProyectoFinal;
 
 namespace WindowsFormsApp1
 {
-    public partial class Login : Form
+    public partial class Login1 : Form
     {
 
         E_Users objeuser = new E_Users();
@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
 
                 frm1.ShowDialog();
 
-                Login login = new Login();
+                Login1 login = new Login1();
                 login.ShowDialog();
 
                 if (login.DialogResult == DialogResult.OK)
@@ -61,7 +61,7 @@ namespace WindowsFormsApp1
         }
 
 
-        public Login()
+        public Login1()
         {
             InitializeComponent();
         }

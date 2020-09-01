@@ -80,7 +80,6 @@ C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\Proyect
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Consultas_Productos.resources
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Consulta_Supermercado.resources
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Ingresar_Articulos.resources
-C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\WindowsFormsApp1.Login.resources
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\WindowsFormsApp1.Principal.resources
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Properties.Resources.resources
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Registro_Usuarios.resources
@@ -130,3 +129,4 @@ C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNI
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.pdb
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Compras.resources
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Compras.resources
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\WindowsFormsApp1.Login1.resources

@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
         private void Principal_Load(object sender, EventArgs e)
         {
             //Administradores
-            if (Login.area == "A1")
+            if (Login1.area == "A1")
 
             {
                 btnsede.Enabled = true;
@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
             }
 
             //Vendedores
-            else if (Login.area == "A2")
+            else if (Login1.area == "A2")
 
             {
                 btnsede.Enabled = false;
@@ -46,7 +46,7 @@ namespace WindowsFormsApp1
             }
 
             //Bodega
-            else if (Login.area == "A3")
+            else if (Login1.area == "A3")
 
             {
                 btnsede.Enabled = false;
@@ -58,7 +58,7 @@ namespace WindowsFormsApp1
                 lblCargo.Text = "Bodega";
             }
 
-            lblnombre.Text = Login.usuario_nombre;
+            lblnombre.Text = Login1.usuario_nombre;
             timer1.Start();
 
         }
