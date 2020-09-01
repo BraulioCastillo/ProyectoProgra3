@@ -11,7 +11,7 @@ namespace Capa_Datos
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "";
+        public string conection = "";//String de conexion
 
 
         #region metodos

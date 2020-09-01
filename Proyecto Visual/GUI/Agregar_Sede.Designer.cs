@@ -181,6 +181,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Agregar_Sede";
             this.Text = "Agregar Sede";
+            this.Load += new System.EventHandler(this.Agregar_Sede_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

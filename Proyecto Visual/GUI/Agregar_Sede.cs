@@ -19,7 +19,7 @@ namespace ProyectoFinal
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "";
+        public string conection = "";//String conexion
         conex_sede conex_Sede;
 
         public Agregar_Sede()
@@ -58,6 +58,11 @@ namespace ProyectoFinal
             txb_localidadsede.Text = "";
             cmb_idencargadosede.Text = "";
             cmb_idsupermercadosede.Text = "";
+        }
+
+        private void Agregar_Sede_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

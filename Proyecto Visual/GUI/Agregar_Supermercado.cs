@@ -18,7 +18,7 @@ namespace ProyectoFinal
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "";
+        public string conection = "";//String conexion
         conex_super conex_Super;
 
         public Agregar_Supermercado()
@@ -48,6 +48,11 @@ namespace ProyectoFinal
             txb_localidad.Text = "";
             txb_nombresupermercado.Text = "";
             cmb_iddueñosupermercado.Text = "";
+        }
+
+        private void Agregar_Supermercado_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

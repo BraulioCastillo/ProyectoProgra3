@@ -10,7 +10,7 @@ namespace ProyectoFinal
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "";
+        public string conection = "";//String conexion
         conex_super conex_Super;
         public Actualizar_Supermercado()
         {
