@@ -117,31 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btn_regresar_productos.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAIwAAAAoCAYAAAAsTRLGAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
-        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAF1SURBVHhe7dzLKy1gFIbxNZAi
-        lxRpsyO3XJJSUkiJRDEwIpfEwCnCxCUmhIwUITE4J7mUMFK2lHJJKGVE6fw1L6G9S7u0xp7Bb/T2zZ5a
-        s89CL9e6/P+gs5cb7T+eaOv2AAhbuvirwYNZVS21ywbyZBs3+zp9vtLF650On0JRH+H3mgutq2G1V/Yn
-        X9aQLhs9WtDa1e5HLP/uj7V4vgmE9e9NKXa0RNYUkBUmyhrX+tS9PaaRo3n17kyobqUHCEsZr/iKJUmW
-        GScrW2z9uE+1y53KnamXDRUAER1ZsvKUz1gIBj8iGLgQDFwIBi4EAxeCgQvBwIVg4EIwcCEYuBAMXAgG
-        LgQDF4KBC8HAhWDgQjBwIRi4EAxcCAYuBAMXgoELwcCFYOBCMHAhGLgQDFwIBi4EAxeCgQvBwOV7MIHp
-        aqVOVipmuEjWlS1ryQAialJlwfhIMNaXK2sLvg9pspyEyABEY80BWWly9BH4zoq//i4DfhSnNyqv5RfB
-        mZhbAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="btncancelar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAIwAAAAoCAYAAAAsTRLGAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
-        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAF1SURBVHhe7dzLKy1gFIbxNZAi
-        lxRpsyO3XJJSUkiJRDEwIpfEwCnCxCUmhIwUITE4J7mUMFK2lHJJKGVE6fw1L6G9S7u0xp7Bb/T2zZ5a
-        s89CL9e6/P+gs5cb7T+eaOv2AAhbuvirwYNZVS21ywbyZBs3+zp9vtLF650On0JRH+H3mgutq2G1V/Yn
-        X9aQLhs9WtDa1e5HLP/uj7V4vgmE9e9NKXa0RNYUkBUmyhrX+tS9PaaRo3n17kyobqUHCEsZr/iKJUmW
-        GScrW2z9uE+1y53KnamXDRUAER1ZsvKUz1gIBj8iGLgQDFwIBi4EAxeCgQvBwIVg4EIwcCEYuBAMXAgG
-        LgQDF4KBC8HAhWDgQjBwIRi4EAxcCAYuBAMXgoELwcCFYOBCMHAhGLgQDFwIBi4EAxeCgQvBwOV7MIHp
-        aqVOVipmuEjWlS1ryQAialJlwfhIMNaXK2sLvg9pspyEyABEY80BWWly9BH4zoq//i4DfhSnNyqv5RfB
-        mZhbAAAAAElFTkSuQmCC
-</value>
-  </data>
 </root>

@@ -7,27 +7,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using Capa_Datos;
 using Datos_;
+using System.Data.SqlClient;
 
 namespace ProyectoFinal
 {
-    public partial class Consultas_Productos : Form
+    public partial class Compras : Form
     {
-        public Consultas_Productos()
+        public Compras()
         {
             InitializeComponent();
         }
 
-        private void btncancelar_Click(object sender, EventArgs e)
+        private void Compras_Load(object sender, EventArgs e)
         {
-            this.Close();
+
         }
 
         private void btn_consultar_Click(object sender, EventArgs e)
         {
-            conex_art conexion = new conex_art(""); //WARNING!!!!!!!!!!!!!!!!!!!!! STRING DE CONEXION
+            conex_art conexion = new conex_art(""); //WARNING STRING DE CONEXION
             DataSet ds = new DataSet();
             SqlDataAdapter da;
             DataRow dr;
@@ -55,25 +54,9 @@ namespace ProyectoFinal
             }
         }
 
-        private void btn_eliminar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txb_codigo_eliminar.Text))
-            {
-                conex_art conexion = new conex_art("");  //WARNING STRING DE CONEXION
 
-                int codigo = int.Parse(txb_codigo_eliminar.Text);
-
-                bool deleted = conexion.delete_articulo(codigo);
-                if (deleted)
-                {
-                    MessageBox.Show("Producto Eliminado de la Base de Datos", "Procedimiento Satisfactorio", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                }
-            }
-            else
-            {
-                MessageBox.Show("Favor digite el código del producto a eliminar", "Advertencia!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
         }
     }
 }

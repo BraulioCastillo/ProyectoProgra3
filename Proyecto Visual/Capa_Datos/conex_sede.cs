@@ -78,7 +78,7 @@ namespace Capa_Datos
 
         #region modifica sede
 
-        public void modificaSede(int id, string localidad)
+        public void modificaSede(int id, string nombre, string localidad)
         {
 
 
@@ -86,7 +86,7 @@ namespace Capa_Datos
             {
                 cnx = new SqlConnection(conection);
                 cnx.Open();
-                cmd = new SqlCommand("execute modificaSede " + id + ", '" + localidad + "'", cnx);
+                cmd = new SqlCommand("execute modificaSede " + id + ", '" + nombre + "', '" + localidad + "'", cnx);
                 cmd.ExecuteNonQuery();
                 cnx.Close();
 

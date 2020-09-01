@@ -99,3 +99,33 @@ C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\bin\Debug\Capa_Da
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\bin\Debug\Capa_Entidad.pdb
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\bin\Debug\Capa_Negocio.pdb
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\ProyectoFinal.exe.config
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\ProyectoFinal.exe
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\ProyectoFinal.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\Capa_Datos.dll
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\Capa_Entidad.dll
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\Capa_Negocio.dll
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\Capa_Datos.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\Capa_Entidad.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\bin\Debug\Capa_Negocio.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Actualizar_Articulo.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Actualizar_Sede.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Actualizar_Supermercado.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Agregar_Sede.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Agregar_Supermercado.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Bodega.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Consultas_Productos.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Consulta_Supermercado.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Ingresar_Articulos.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\WindowsFormsApp1.Principal.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Properties.Resources.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Registro_Usuarios.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Supermercado.resources
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.exe
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Compras.resources

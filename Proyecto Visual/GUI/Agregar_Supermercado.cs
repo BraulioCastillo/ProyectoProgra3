@@ -43,7 +43,6 @@ namespace ProyectoFinal
 
         private void btn_agregarsupermercado_Click(object sender, EventArgs e)
         {
-            conex_Super = new conex_super();
             conex_Super.ingresaSuper(int.Parse(txb_idsupermercado.Text), txb_nombresupermercado.Text, txb_localidad.Text, int.Parse(cmb_iddueñosupermercado.Text));
             txb_idsupermercado.Text = "";
             txb_localidad.Text = "";
