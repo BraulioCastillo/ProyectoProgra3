@@ -38,7 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmb_Supermercado = new System.Windows.Forms.ComboBox();
+            this.cmb_idSupermercado = new System.Windows.Forms.ComboBox();
             this.btn_actualizarsupermercado = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -64,7 +64,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.cmb_Supermercado);
+            this.groupBox1.Controls.Add(this.cmb_idSupermercado);
             this.groupBox1.Location = new System.Drawing.Point(162, 71);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(471, 262);
@@ -133,14 +133,14 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "ID:";
             // 
-            // cmb_Supermercado
+            // cmb_idSupermercado
             // 
-            this.cmb_Supermercado.FormattingEnabled = true;
-            this.cmb_Supermercado.Location = new System.Drawing.Point(204, 60);
-            this.cmb_Supermercado.Name = "cmb_Supermercado";
-            this.cmb_Supermercado.Size = new System.Drawing.Size(121, 21);
-            this.cmb_Supermercado.TabIndex = 12;
-            this.cmb_Supermercado.SelectedIndexChanged += new System.EventHandler(this.cmb_iddueñosupermercado_SelectedIndexChanged);
+            this.cmb_idSupermercado.FormattingEnabled = true;
+            this.cmb_idSupermercado.Location = new System.Drawing.Point(204, 60);
+            this.cmb_idSupermercado.Name = "cmb_idSupermercado";
+            this.cmb_idSupermercado.Size = new System.Drawing.Size(121, 21);
+            this.cmb_idSupermercado.TabIndex = 12;
+            this.cmb_idSupermercado.SelectedIndexChanged += new System.EventHandler(this.cmb_iddueñosupermercado_SelectedIndexChanged);
             // 
             // btn_actualizarsupermercado
             // 
@@ -200,7 +200,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cmb_Supermercado;
+        private System.Windows.Forms.ComboBox cmb_idSupermercado;
         private System.Windows.Forms.Button btn_actualizarsupermercado;
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.TextBox txb_idDueño;

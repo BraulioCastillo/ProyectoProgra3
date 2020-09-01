@@ -19,7 +19,6 @@ namespace ProyectoFinal
         public SqlConnection cnx;
         SqlDataReader dataReader;
         public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
-        conex_super conex_Super;
 
         public Agregar_Supermercado()
         {
@@ -43,7 +42,8 @@ namespace ProyectoFinal
 
         private void btn_agregarsupermercado_Click(object sender, EventArgs e)
         {
-            conex_Super.ingresaSuper(int.Parse(txb_idsupermercado.Text), txb_nombresupermercado.Text, txb_localidad.Text, int.Parse(cmb_iddueñosupermercado.Text));
+            conex_super conex = new conex_super(); 
+            conex.ingresaSuper(int.Parse(txb_idsupermercado.Text), txb_nombresupermercado.Text, txb_localidad.Text, int.Parse(cmb_iddueñosupermercado.Text));
             txb_idsupermercado.Text = "";
             txb_localidad.Text = "";
             txb_nombresupermercado.Text = "";

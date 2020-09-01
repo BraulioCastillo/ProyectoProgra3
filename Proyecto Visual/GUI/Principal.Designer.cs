@@ -147,13 +147,14 @@
             // btnsede
             // 
             this.btnsede.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnsede.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsede.Location = new System.Drawing.Point(49, 303);
+            this.btnsede.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsede.Location = new System.Drawing.Point(36, 303);
             this.btnsede.Name = "btnsede";
-            this.btnsede.Size = new System.Drawing.Size(143, 62);
+            this.btnsede.Size = new System.Drawing.Size(156, 62);
             this.btnsede.TabIndex = 14;
-            this.btnsede.Text = "Sede";
+            this.btnsede.Text = "Supermercado";
             this.btnsede.UseVisualStyleBackColor = false;
+            this.btnsede.Click += new System.EventHandler(this.btnsede_Click);
             // 
             // btnventas
             // 
@@ -177,6 +178,7 @@
             this.btncompras.TabIndex = 16;
             this.btncompras.Text = "Compras";
             this.btncompras.UseVisualStyleBackColor = false;
+            this.btncompras.Click += new System.EventHandler(this.btncompras_Click);
             // 
             // btnbodega
             // 
@@ -188,6 +190,7 @@
             this.btnbodega.TabIndex = 17;
             this.btnbodega.Text = "Bodega";
             this.btnbodega.UseVisualStyleBackColor = false;
+            this.btnbodega.Click += new System.EventHandler(this.btnbodega_Click);
             // 
             // btnusuarios
             // 
@@ -199,6 +202,7 @@
             this.btnusuarios.TabIndex = 18;
             this.btnusuarios.Text = "Usuarios";
             this.btnusuarios.UseVisualStyleBackColor = false;
+            this.btnusuarios.Click += new System.EventHandler(this.btnusuarios_Click);
             // 
             // Principal
             // 

@@ -26,5 +26,10 @@ namespace ProyectoFinal
         {
 
         }
+
+        private void cmb_idSede_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -122,6 +122,39 @@ namespace Capa_Datos
             return sede;
         }
 
+        public int contUser()
+        {
+            int cont = 0;
+            cnx = new SqlConnection(conection);
+            cnx.Open();
+            cmd = new SqlCommand("select * from Persona", cnx);
+            cmd.ExecuteNonQuery();
+            dataReader = cmd.ExecuteReader();
+            while (dataReader.Read())
+            {
+                cont++;
+            }
+            return cont;
+        }
+
+        public string[] cargaIdUser()
+        {
+            string[] ID = new string[contUser()];
+            int cont = 0;
+            cnx = new SqlConnection(conection);
+            cnx.Open();
+            cmd = new SqlCommand("select * from Persona", cnx);
+            cmd.ExecuteNonQuery();
+            dataReader = cmd.ExecuteReader();
+            while (dataReader.Read())
+            {
+                ID[cont] = "" + dataReader["ID"].ToString();
+                cont++;
+            }
+
+            return ID;
+        }
+
         #endregion
 
 

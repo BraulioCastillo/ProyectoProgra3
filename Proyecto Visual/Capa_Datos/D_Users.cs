@@ -13,7 +13,9 @@ namespace DATOS
     public class D_Users
     {
 
-        SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True"].ConnectionString);
+        SqlConnection cn = new SqlConnection("Data Source = BRAULIO\\SQSLEXPRESS; Initial Catalog = ProyectoFinal; Integrated Security = True");
+
+        //ConfigurationManager.ConnectionStrings["sql"].ConnectionString
 
         public DataTable D_user(E_Users obje) 
         {

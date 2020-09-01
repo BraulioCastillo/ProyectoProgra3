@@ -84,11 +84,10 @@ namespace Capa_Datos
                 cmd = new SqlCommand("execute modificaSuper " + id + ", '" + nombre + "', '" + localidad + "', " + IDDueño, cnx);
                 cmd.ExecuteNonQuery();
                 cnx.Close();
-
+                MessageBox.Show("Súpermercado actualizado.");
             }
             catch (Exception)
             {
-
                 MessageBox.Show("Error al modificar el súpermercado");
             }
 
@@ -101,17 +100,20 @@ namespace Capa_Datos
             {
                 cnx = new SqlConnection(conection);
                 cnx.Open();
-                cmd = new SqlCommand("selec * from Supermercado where Id = " + id, cnx);
+                cmd = new SqlCommand("select * from Supermercado where ID =" + id, cnx);
                 cmd.ExecuteNonQuery();
                 dataReader = cmd.ExecuteReader();
-                super.IDEncargado = int.Parse(dataReader["ID_dueño"].ToString());
-                super.IDSuper = int.Parse(dataReader["ID"].ToString());
-                super.Nombre = dataReader["nombre"].ToString();
-                super.Localidad = dataReader["localidad"].ToString();
+                while (dataReader.Read())
+                {
+                    super.IDEncargado = int.Parse(dataReader["ID_dueno"].ToString());
+                    super.IDSuper = int.Parse(dataReader["ID"].ToString());
+                    super.Nombre = dataReader["nombre"].ToString();
+                    super.Localidad = dataReader["localidad"].ToString();
+                }
+
             }
             catch (Exception)
             {
-
                 MessageBox.Show("Hubo un problema al cargar los datos, por favor intente nuevamente");
             }
             return super;

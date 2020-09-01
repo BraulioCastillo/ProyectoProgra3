@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoFinal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -86,6 +87,35 @@ namespace WindowsFormsApp1
 
         private void btnventas_Click_1(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnsede_Click(object sender, EventArgs e)
+        {
+            Supermercado super = new Supermercado();
+            super.Show();
+            Login1 login = new Login1();
+            login.Hide();
+        }
+
+        private void btncompras_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnusuarios_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnbodega_Click(object sender, EventArgs e)
+        {
+
+            Bodega bodega = new Bodega();
+            Login1 login = new Login1();
+            bodega.Show();
+            login.Hide();
+
 
         }
     }

@@ -16,15 +16,15 @@ namespace ProyectoFinal
     {
 
 
-        public SqlCommand cmd;
+        public SqlCommand cmd, command;
         public SqlConnection cnx;
-        SqlDataReader dataReader;
+        SqlDataReader dataReader, dr;
         public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
         conex_sede conex_Sede;
 
         public Agregar_Sede()
         {
-            InitializeComponent();
+            conex_Sede = new conex_sede();
             InitializeComponent();
             cnx = new SqlConnection(conection);
             cnx.Open();
@@ -35,14 +35,16 @@ namespace ProyectoFinal
             {
                 cmb_idencargadosede.Items.Add(dataReader["ID"].ToString());
             }
-            cmd.Cancel();
-            cmd = new SqlCommand("select * from Superercado", cnx);
+            dataReader.Close();
+
+            cmd = new SqlCommand("select * from Supermercado", cnx);
             cmd.ExecuteNonQuery();
-            dataReader = cmd.ExecuteReader();
-            while (dataReader.Read())
+            dr = cmd.ExecuteReader();
+            while (dr.Read())
             {
-                cmb_idsupermercadosede.Items.Add(dataReader["ID"].ToString());
+                cmb_idsupermercadosede.Items.Add(dr["ID"].ToString());
             }
+
             cnx.Close();
         }
 

@@ -14,7 +14,7 @@ namespace ProyectoFinal
         conex_super conex_Super;
         public Actualizar_Supermercado()
         {
-            InitializeComponent();
+            conex_Super = new conex_super();
             InitializeComponent();
             cnx = new SqlConnection(conection);
             cnx.Open();
@@ -23,7 +23,7 @@ namespace ProyectoFinal
             dataReader = cmd.ExecuteReader();
             while (dataReader.Read())
             {
-                cmb_Supermercado.Items.Add(dataReader["ID"].ToString());
+                cmb_idSupermercado.Items.Add(dataReader["ID"].ToString());
             }
             cnx.Close();
         }
@@ -40,7 +40,7 @@ namespace ProyectoFinal
 
         private void cmb_iddueñosupermercado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Capa_Negocio.Supermercado supermercado = conex_Super.cargaDatosSuper(int.Parse(cmb_Supermercado.Text));
+            Capa_Negocio.Supermercado supermercado = conex_Super.cargaDatosSuper(int.Parse(cmb_idSupermercado.Text));
             try
             {
                 txb_localidad.Text = supermercado.Localidad;
@@ -58,7 +58,11 @@ namespace ProyectoFinal
         {
             try
             {
-               conex_Super.modificaSuper(int.Parse(cmb_Supermercado.Text), txb_nombresupermercado.Text, txb_localidad.Text, int.Parse(txb_idDueño.Text));
+               conex_Super.modificaSuper(int.Parse(cmb_idSupermercado.Text), txb_nombresupermercado.Text, txb_localidad.Text, int.Parse(txb_idDueño.Text));
+                txb_idDueño.Text = "";
+                txb_localidad.Text = "";
+                txb_nombresupermercado.Text = "";
+                cmb_idSupermercado.Text = "";
             }
             catch (Exception)
             {
