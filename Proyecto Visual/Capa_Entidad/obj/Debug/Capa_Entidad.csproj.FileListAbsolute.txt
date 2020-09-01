@@ -10,3 +10,9 @@ C:\Users\Allan\Downloads\LoginMenu\Capa_Entidad\obj\Debug\Capa_Entidad.csprojAss
 C:\Users\Allan\Downloads\LoginMenu\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
 C:\Users\Allan\Downloads\LoginMenu\Capa_Entidad\obj\Debug\Capa_Entidad.dll
 C:\Users\Allan\Downloads\LoginMenu\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Entidad\obj\Debug\Capa_Entidad.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Entidad\obj\Debug\Capa_Entidad.pdb

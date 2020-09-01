@@ -34,6 +34,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,10 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexion.cs" />
     <Compile Include="conex_art.cs" />
-    <Compile Include="conex_detalle.cs" />
-    <Compile Include="conex_factura.cs" />
     <Compile Include="conex_sede.cs" />
     <Compile Include="conex_super.cs" />
     <Compile Include="conex_ventas.cs" />

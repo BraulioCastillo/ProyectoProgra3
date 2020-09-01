@@ -14,7 +14,6 @@ namespace Capa_Datos
 
         public SqlCommand cmd;
         public SqlConnection cnx;
-        SqlDataAdapter adaptador;
         SqlDataReader dataReader;
         public string conection = "";
 
