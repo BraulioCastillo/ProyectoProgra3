@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82600B63-4C41-4A8C-B6CA-ECA2F8ACD439}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoFinal</RootNamespace>
+    <AssemblyName>ProyectoFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actualizar_Articulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Articulo.Designer.cs">
+      <DependentUpon>Actualizar_Articulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Sede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Sede.Designer.cs">
+      <DependentUpon>Actualizar_Sede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizar_Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Supermercado.Designer.cs">
+      <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Sede.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Sede.Designer.cs">
+      <DependentUpon>Agregar_Sede.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Supermercado.Designer.cs">
+      <DependentUpon>Agregar_Supermercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bodega.Designer.cs">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas_Productos.Designer.cs">
+      <DependentUpon>Consultas_Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta_Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_Supermercado.Designer.cs">
+      <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingresar_Articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ingresar_Articulos.Designer.cs">
+      <DependentUpon>Ingresar_Articulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_Usuarios.Designer.cs">
+      <DependentUpon>Registro_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supermercado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supermercado.Designer.cs">
+      <DependentUpon>Supermercado.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Actualizar_Articulo.resx">
+      <DependentUpon>Actualizar_Articulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Sede.resx">
+      <DependentUpon>Actualizar_Sede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Supermercado.resx">
+      <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Sede.resx">
+      <DependentUpon>Agregar_Sede.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_Supermercado.resx">
+      <DependentUpon>Agregar_Supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bodega.resx">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas_Productos.resx">
+      <DependentUpon>Consultas_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta_Supermercado.resx">
+      <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ingresar_Articulos.resx">
+      <DependentUpon>Ingresar_Articulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro_Usuarios.resx">
+      <DependentUpon>Registro_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supermercado.resx">
+      <DependentUpon>Supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Entidad\Capa_Entidad.csproj">
+      <Project>{b12a4f9f-c7d8-422d-9737-bc8978e4c3f8}</Project>
+      <Name>Capa_Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Negocio\Capa_Negocios.csproj">
+      <Project>{407ccf76-2d11-492b-9945-9e8928cb8af6}</Project>
+      <Name>Capa_Negocios</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
