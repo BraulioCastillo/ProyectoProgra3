@@ -129,3 +129,4 @@ C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNI
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.exe
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.pdb
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Compras.resources
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Compras.resources

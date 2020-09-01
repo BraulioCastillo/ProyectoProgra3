@@ -35,6 +35,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtpass = new System.Windows.Forms.TextBox();
             this.btncancelar = new System.Windows.Forms.Button();
+            this.btn_registrarusuario = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -63,7 +64,7 @@
             this.btnlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.ForeColor = System.Drawing.Color.White;
-            this.btnlogin.Location = new System.Drawing.Point(304, 239);
+            this.btnlogin.Location = new System.Drawing.Point(304, 222);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(100, 40);
             this.btnlogin.TabIndex = 2;
@@ -96,13 +97,27 @@
             this.btncancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.ForeColor = System.Drawing.Color.White;
-            this.btncancelar.Location = new System.Drawing.Point(427, 239);
+            this.btncancelar.Location = new System.Drawing.Point(427, 222);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(100, 40);
             this.btncancelar.TabIndex = 5;
-            this.btncancelar.Text = "Cancelar";
+            this.btncancelar.Text = "Salir";
             this.btncancelar.UseVisualStyleBackColor = true;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
+            // 
+            // btn_registrarusuario
+            // 
+            this.btn_registrarusuario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_registrarusuario.BackgroundImage")));
+            this.btn_registrarusuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_registrarusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_registrarusuario.ForeColor = System.Drawing.Color.White;
+            this.btn_registrarusuario.Location = new System.Drawing.Point(346, 268);
+            this.btn_registrarusuario.Name = "btn_registrarusuario";
+            this.btn_registrarusuario.Size = new System.Drawing.Size(144, 40);
+            this.btn_registrarusuario.TabIndex = 6;
+            this.btn_registrarusuario.Text = "Registrar Usuario";
+            this.btn_registrarusuario.UseVisualStyleBackColor = true;
+            this.btn_registrarusuario.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Login
             // 
@@ -111,6 +126,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(584, 361);
+            this.Controls.Add(this.btn_registrarusuario);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.pictureBox2);
@@ -139,6 +155,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtpass;
         private System.Windows.Forms.Button btncancelar;
+        private System.Windows.Forms.Button btn_registrarusuario;
     }
 }
 

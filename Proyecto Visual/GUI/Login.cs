@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ENTIDAD;
 using NEGOCIOS;
+using ProyectoFinal;
 
 namespace WindowsFormsApp1
 {
@@ -78,6 +79,12 @@ namespace WindowsFormsApp1
         private void btncancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Registro_Usuarios frmusuarios = new Registro_Usuarios();
+            frmusuarios.Show();
         }
     }
 }
