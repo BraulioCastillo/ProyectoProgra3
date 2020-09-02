@@ -32,6 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_acutualizarsede = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txb_idSede = new System.Windows.Forms.TextBox();
+            this.txb_idEncargado = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txb_localidadsede = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,8 +41,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cmb_idSede = new System.Windows.Forms.ComboBox();
             this.btncancelar = new System.Windows.Forms.Button();
-            this.txb_idEncargado = new System.Windows.Forms.TextBox();
-            this.txb_idSede = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +68,7 @@
             this.btn_acutualizarsede.TabIndex = 7;
             this.btn_acutualizarsede.Text = "Actualizar";
             this.btn_acutualizarsede.UseVisualStyleBackColor = true;
+            this.btn_acutualizarsede.Click += new System.EventHandler(this.btn_acutualizarsede_Click_1);
             // 
             // groupBox1
             // 
@@ -84,6 +85,20 @@
             this.groupBox1.Size = new System.Drawing.Size(471, 262);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
+            // 
+            // txb_idSede
+            // 
+            this.txb_idSede.Location = new System.Drawing.Point(213, 178);
+            this.txb_idSede.Name = "txb_idSede";
+            this.txb_idSede.Size = new System.Drawing.Size(121, 20);
+            this.txb_idSede.TabIndex = 12;
+            // 
+            // txb_idEncargado
+            // 
+            this.txb_idEncargado.Location = new System.Drawing.Point(213, 134);
+            this.txb_idEncargado.Name = "txb_idEncargado";
+            this.txb_idEncargado.Size = new System.Drawing.Size(121, 20);
+            this.txb_idEncargado.TabIndex = 11;
             // 
             // label5
             // 
@@ -154,20 +169,6 @@
             this.btncancelar.Text = "Salir";
             this.btncancelar.UseVisualStyleBackColor = true;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
-            // 
-            // txb_idEncargado
-            // 
-            this.txb_idEncargado.Location = new System.Drawing.Point(213, 134);
-            this.txb_idEncargado.Name = "txb_idEncargado";
-            this.txb_idEncargado.Size = new System.Drawing.Size(121, 20);
-            this.txb_idEncargado.TabIndex = 11;
-            // 
-            // txb_idSede
-            // 
-            this.txb_idSede.Location = new System.Drawing.Point(213, 178);
-            this.txb_idSede.Name = "txb_idSede";
-            this.txb_idSede.Size = new System.Drawing.Size(121, 20);
-            this.txb_idSede.TabIndex = 12;
             // 
             // Actualizar_Sede
             // 

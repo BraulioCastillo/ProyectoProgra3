@@ -164,3 +164,7 @@ C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNI
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Consultar_Usuario.resources
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Eliminar_Usuario.resources
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Menu_Usuario.resources
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Actualizar_Usuario.resources
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Consultar_Usuario.resources
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Eliminar_Usuario.resources
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Menu_Usuario.resources

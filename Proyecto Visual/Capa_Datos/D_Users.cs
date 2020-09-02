@@ -16,7 +16,7 @@ namespace DATOS
         public string conexion = "";
         public SqlCommand cmd;
         public SqlConnection cnx;
-        SqlConnection cn = new SqlConnection("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
+        SqlConnection cn = new SqlConnection("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
 
         
         public D_Users(String conn)
