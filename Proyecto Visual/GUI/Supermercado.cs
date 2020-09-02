@@ -66,12 +66,5 @@ namespace ProyectoFinal
         {
 
         }
-
-        private void btn_consultarSede_Click(object sender, EventArgs e)
-        {
-            Consultar_Sede consultar = new Consultar_Sede();
-            consultar.Show();
-            //this.Hide();
-        }
     }
 }

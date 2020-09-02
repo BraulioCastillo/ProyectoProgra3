@@ -36,8 +36,6 @@ namespace Capa_Datos
 
                 MessageBox.Show("Hubo un error al ingresar el súpermercado, por favor intente nuevamente");
             }
-
-
         }
 
         private bool validaIDSuper(int id)

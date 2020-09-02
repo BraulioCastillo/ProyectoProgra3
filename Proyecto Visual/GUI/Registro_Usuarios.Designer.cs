@@ -35,7 +35,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_salir = new System.Windows.Forms.Button();
-            this.btnregistrar = new System.Windows.Forms.Button();
+            this.btn_registrarusuario = new System.Windows.Forms.Button();
             this.txb_id = new System.Windows.Forms.TextBox();
             this.txb_contraseña = new System.Windows.Forms.TextBox();
             this.txb_nombre = new System.Windows.Forms.TextBox();
@@ -117,19 +117,19 @@
             this.btn_salir.UseVisualStyleBackColor = true;
             this.btn_salir.Click += new System.EventHandler(this.btncancelar_Click);
             // 
-            // btnregistrar
+            // btn_registrarusuario
             // 
-            this.btnregistrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnregistrar.BackgroundImage")));
-            this.btnregistrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnregistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregistrar.ForeColor = System.Drawing.Color.White;
-            this.btnregistrar.Location = new System.Drawing.Point(170, 325);
-            this.btnregistrar.Name = "btnregistrar";
-            this.btnregistrar.Size = new System.Drawing.Size(174, 40);
-            this.btnregistrar.TabIndex = 8;
-            this.btnregistrar.Text = "Registrar Usuario";
-            this.btnregistrar.UseVisualStyleBackColor = true;
-            this.btnregistrar.Click += new System.EventHandler(this.button2_Click);
+            this.btn_registrarusuario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_registrarusuario.BackgroundImage")));
+            this.btn_registrarusuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_registrarusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_registrarusuario.ForeColor = System.Drawing.Color.White;
+            this.btn_registrarusuario.Location = new System.Drawing.Point(170, 325);
+            this.btn_registrarusuario.Name = "btn_registrarusuario";
+            this.btn_registrarusuario.Size = new System.Drawing.Size(174, 40);
+            this.btn_registrarusuario.TabIndex = 8;
+            this.btn_registrarusuario.Text = "Registrar Usuario";
+            this.btn_registrarusuario.UseVisualStyleBackColor = true;
+            this.btn_registrarusuario.Click += new System.EventHandler(this.button2_Click);
             // 
             // txb_id
             // 
@@ -248,11 +248,11 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Wide Latin", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(49, 9);
+            this.label9.Location = new System.Drawing.Point(65, 9);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(417, 28);
+            this.label9.Size = new System.Drawing.Size(386, 28);
             this.label9.TabIndex = 15;
-            this.label9.Text = "Registro de Usuarios";
+            this.label9.Text = "Registrar Usuarios";
             // 
             // Registro_Usuarios
             // 
@@ -263,12 +263,11 @@
             this.ClientSize = new System.Drawing.Size(514, 399);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnregistrar);
+            this.Controls.Add(this.btn_registrarusuario);
             this.Controls.Add(this.btn_salir);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registro_Usuarios";
             this.Text = "Registro Usuarios";
-            this.Load += new System.EventHandler(this.Registro_Usuarios_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -284,7 +283,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btn_salir;
-        private System.Windows.Forms.Button btnregistrar;
+        private System.Windows.Forms.Button btn_registrarusuario;
         private System.Windows.Forms.TextBox txb_id;
         private System.Windows.Forms.TextBox txb_contraseña;
         private System.Windows.Forms.TextBox txb_nombre;

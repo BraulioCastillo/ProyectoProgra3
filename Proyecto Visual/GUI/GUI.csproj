@@ -64,6 +64,12 @@
     <Compile Include="Actualizar_Supermercado.Designer.cs">
       <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Actualizar_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar_Usuario.Designer.cs">
+      <DependentUpon>Actualizar_Usuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Agregar_Sede.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,11 +94,11 @@
     <Compile Include="Compras.Designer.cs">
       <DependentUpon>Compras.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consultar_Sede.cs">
+    <Compile Include="Consultar_Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultar_Sede.Designer.cs">
-      <DependentUpon>Consultar_Sede.cs</DependentUpon>
+    <Compile Include="Consultar_Usuario.Designer.cs">
+      <DependentUpon>Consultar_Usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Consultas_Productos.cs">
       <SubType>Form</SubType>
@@ -106,6 +112,12 @@
     <Compile Include="Consulta_Supermercado.Designer.cs">
       <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Eliminar_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar_Usuario.Designer.cs">
+      <DependentUpon>Eliminar_Usuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ingresar_Articulos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Usuario.Designer.cs">
+      <DependentUpon>Menu_Usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -147,6 +165,9 @@
     <EmbeddedResource Include="Actualizar_Supermercado.resx">
       <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Actualizar_Usuario.resx">
+      <DependentUpon>Actualizar_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Agregar_Sede.resx">
       <DependentUpon>Agregar_Sede.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,8 +180,8 @@
     <EmbeddedResource Include="Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultar_Sede.resx">
-      <DependentUpon>Consultar_Sede.cs</DependentUpon>
+    <EmbeddedResource Include="Consultar_Usuario.resx">
+      <DependentUpon>Consultar_Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultas_Productos.resx">
       <DependentUpon>Consultas_Productos.cs</DependentUpon>
@@ -168,11 +189,17 @@
     <EmbeddedResource Include="Consulta_Supermercado.resx">
       <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_Usuario.resx">
+      <DependentUpon>Eliminar_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ingresar_Articulos.resx">
       <DependentUpon>Ingresar_Articulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Usuario.resx">
+      <DependentUpon>Menu_Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>

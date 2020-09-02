@@ -78,7 +78,7 @@ namespace Capa_Datos
 
         #region modifica sede
 
-        public void modificaSede(int id,string localidad)
+        public void modificaSede(int id, string nombre, string localidad)
         {
 
 
@@ -86,10 +86,9 @@ namespace Capa_Datos
             {
                 cnx = new SqlConnection(conection);
                 cnx.Open();
-                cmd = new SqlCommand("execute modificaSede " + id + ", '" + localidad + "'", cnx);
+                cmd = new SqlCommand("execute modificaSede " + id + ", '" + nombre + "', '" + localidad + "'", cnx);
                 cmd.ExecuteNonQuery();
                 cnx.Close();
-                MessageBox.Show("Sede modificada");
 
             }
             catch (Exception)
@@ -107,16 +106,13 @@ namespace Capa_Datos
             {
                 cnx = new SqlConnection(conection);
                 cnx.Open();
-                cmd = new SqlCommand("select * from Sede where Id = " + id, cnx);
+                cmd = new SqlCommand("selec * from Sede where Id = " + id, cnx);
                 cmd.ExecuteNonQuery();
                 dataReader = cmd.ExecuteReader();
-                while (dataReader.Read())
-                {
-                    sede.IDEncargado = int.Parse(dataReader["ID_encargado"].ToString());
-                    sede.Localidad = dataReader["localidad"].ToString();
-                    sede.IDSuper = int.Parse(dataReader["ID_Supermercado"].ToString());
-                    sede.IDSede = int.Parse(dataReader["Id"].ToString());
-                }
+                sede.IDEncargado = int.Parse(dataReader["ID_encargado"].ToString());
+                sede.Localidad = dataReader["localidad"].ToString();
+                sede.IDSuper = int.Parse(dataReader["ID_Supermercado"].ToString());
+                sede.IDSede = int.Parse(dataReader["Id"].ToString());
             }
             catch (Exception)
             {
@@ -161,41 +157,7 @@ namespace Capa_Datos
 
         #endregion
 
-        #region ver sede
-        private int countSedes(int id)
-        {
-            int cont = 0;
-            cnx = new SqlConnection(conection);
-            cnx.Open();
-            cmd = new SqlCommand("select * from Sede where Id = " + id, cnx);
-            cmd.ExecuteNonQuery();
-            dataReader = cmd.ExecuteReader();
-            while (dataReader.Read())
-            {
-                cont++;
-            }
-            return cont;
-        }
 
-
-        #endregion
-
-        //public object[] sedes(int idSuper)
-        //{
-        //    object sedes = new object[countSedes(idSuper)];
-        //    Sede cd = new Sede();
-        //    cnx = new SqlConnection(conection);
-        //    cnx.Open();
-        //    cmd = new SqlCommand("select * from Sede where Id = " + idSuper, cnx);
-        //    cmd.ExecuteNonQuery();
-        //    dataReader = cmd.ExecuteReader();
-        //    while (dataReader.Read())
-        //    {
-        //        cd.
-        //    }
-
-        //    return sedes;
-        //}
 
         #endregion
     }

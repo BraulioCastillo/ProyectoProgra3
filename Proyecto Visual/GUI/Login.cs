@@ -20,9 +20,7 @@ namespace WindowsFormsApp1
         N_Users objnuser = new N_Users();
         Principal frm1 = new Principal();
 
-        public static string usuario_nombre;
-        public static string area;
-
+        public static string usuario_nombre, roll, apellidos;
 
         void p_logueo() 
         {
@@ -36,8 +34,9 @@ namespace WindowsFormsApp1
             if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("Bienvenido " + dt.Rows[0][1].ToString(), "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                usuario_nombre = dt.Rows[0][1].ToString();
-                area = dt.Rows[0][0].ToString();
+                usuario_nombre = dt.Rows[0][0].ToString();
+                apellidos = dt.Rows[0][1].ToString();
+                roll = dt.Rows[0][2].ToString();
 
                 frm1.ShowDialog();
 
