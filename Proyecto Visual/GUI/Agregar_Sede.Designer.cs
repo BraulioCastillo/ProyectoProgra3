@@ -110,9 +110,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(108, 141);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 13);
+            this.label4.Size = new System.Drawing.Size(99, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "ID_Encargado:";
+            this.label4.Text = "ID_Enccargado:";
             // 
             // label3
             // 
@@ -154,7 +154,6 @@
             this.btn_agregarsede.TabIndex = 5;
             this.btn_agregarsede.Text = "Agregar ";
             this.btn_agregarsede.UseVisualStyleBackColor = true;
-            this.btn_agregarsede.Click += new System.EventHandler(this.btn_agregarsede_Click);
             // 
             // btncancelar
             // 
@@ -181,7 +180,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Agregar_Sede";
             this.Text = "Agregar Sede";
-            this.Load += new System.EventHandler(this.Agregar_Sede_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

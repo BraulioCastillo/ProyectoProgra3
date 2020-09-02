@@ -21,15 +21,5 @@ namespace ProyectoFinal
         {
             this.Close();
         }
-
-        private void Actualizar_Sede_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cmb_idSede_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

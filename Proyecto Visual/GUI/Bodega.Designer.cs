@@ -55,7 +55,7 @@
             this.btn_agregararticulos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_agregararticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_agregararticulos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_agregararticulos.Location = new System.Drawing.Point(241, 104);
+            this.btn_agregararticulos.Location = new System.Drawing.Point(222, 109);
             this.btn_agregararticulos.Name = "btn_agregararticulos";
             this.btn_agregararticulos.Size = new System.Drawing.Size(141, 40);
             this.btn_agregararticulos.TabIndex = 15;
@@ -69,11 +69,11 @@
             this.btn_consultarproductos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_consultarproductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_consultarproductos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_consultarproductos.Location = new System.Drawing.Point(94, 104);
+            this.btn_consultarproductos.Location = new System.Drawing.Point(75, 109);
             this.btn_consultarproductos.Name = "btn_consultarproductos";
             this.btn_consultarproductos.Size = new System.Drawing.Size(141, 40);
             this.btn_consultarproductos.TabIndex = 14;
-            this.btn_consultarproductos.Text = "Consultar / Eliminar Productos";
+            this.btn_consultarproductos.Text = "Consultas Productos";
             this.btn_consultarproductos.UseVisualStyleBackColor = true;
             this.btn_consultarproductos.Click += new System.EventHandler(this.btn_agregarsupermercado_Click);
             // 
@@ -98,7 +98,7 @@
             this.btn_ingresararticulos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ingresararticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ingresararticulos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ingresararticulos.Location = new System.Drawing.Point(388, 104);
+            this.btn_ingresararticulos.Location = new System.Drawing.Point(369, 109);
             this.btn_ingresararticulos.Name = "btn_ingresararticulos";
             this.btn_ingresararticulos.Size = new System.Drawing.Size(141, 40);
             this.btn_ingresararticulos.TabIndex = 20;
@@ -111,7 +111,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(616, 264);
+            this.ClientSize = new System.Drawing.Size(568, 264);
             this.Controls.Add(this.btn_ingresararticulos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_agregararticulos);

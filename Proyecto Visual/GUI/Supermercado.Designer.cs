@@ -152,7 +152,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Supermercado";
             this.Text = "Supermercado";
-            this.Load += new System.EventHandler(this.Supermercado_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
