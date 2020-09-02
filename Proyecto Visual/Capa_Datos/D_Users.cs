@@ -13,7 +13,7 @@ namespace DATOS
     public class D_Users
     {
 
-        SqlConnection cn = new SqlConnection("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
+        SqlConnection cn = new SqlConnection("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
 
         //ConfigurationManager.ConnectionStrings["sql"].ConnectionString
 
