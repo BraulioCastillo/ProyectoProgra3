@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Login
+    partial class Login1
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtusuario = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
@@ -115,7 +115,7 @@
             this.btn_registrarusuario.Name = "btn_registrarusuario";
             this.btn_registrarusuario.Size = new System.Drawing.Size(144, 40);
             this.btn_registrarusuario.TabIndex = 6;
-            this.btn_registrarusuario.Text = "Menú Usuario";
+            this.btn_registrarusuario.Text = "Registrar Usuario";
             this.btn_registrarusuario.UseVisualStyleBackColor = true;
             this.btn_registrarusuario.Click += new System.EventHandler(this.button1_Click_1);
             // 

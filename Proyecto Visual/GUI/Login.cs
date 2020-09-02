@@ -13,16 +13,14 @@ using ProyectoFinal;
 
 namespace WindowsFormsApp1
 {
-    public partial class Login : Form
+    public partial class Login1 : Form
     {
 
         E_Users objeuser = new E_Users();
         N_Users objnuser = new N_Users();
         Principal frm1 = new Principal();
 
-        public static string usuario_nombre;
-        public static string area;
-
+        public static string usuario_nombre, roll, apellidos;
 
         void p_logueo() 
         {
@@ -36,12 +34,13 @@ namespace WindowsFormsApp1
             if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("Bienvenido " + dt.Rows[0][1].ToString(), "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                usuario_nombre = dt.Rows[0][1].ToString();
-                area = dt.Rows[0][0].ToString();
+                usuario_nombre = dt.Rows[0][0].ToString();
+                apellidos = dt.Rows[0][1].ToString();
+                roll = dt.Rows[0][2].ToString();
 
                 frm1.ShowDialog();
 
-                Login login = new Login();
+                Login1 login = new Login1();
                 login.ShowDialog();
 
                 if (login.DialogResult == DialogResult.OK)
@@ -61,7 +60,7 @@ namespace WindowsFormsApp1
         }
 
 
-        public Login()
+        public Login1()
         {
             InitializeComponent();
         }
@@ -83,8 +82,8 @@ namespace WindowsFormsApp1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Menu_Usuario frmmenuusuario = new Menu_Usuario();
-            frmmenuusuario.Show();
+            Registro_Usuarios frmusuarios = new Registro_Usuarios();
+            frmusuarios.Show();
         }
     }
 }

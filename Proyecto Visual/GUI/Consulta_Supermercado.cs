@@ -21,5 +21,10 @@ namespace ProyectoFinal
         {
             this.Close();
         }
+
+        private void Consulta_Supermercado_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

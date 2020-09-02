@@ -43,6 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btncancelar = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.gbx_insertarProducto.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_imagen)).BeginInit();
             this.SuspendLayout();
@@ -81,6 +82,7 @@
             this.btn_cargar_img.TabIndex = 10;
             this.btn_cargar_img.Text = "Cargar Imagen";
             this.btn_cargar_img.UseVisualStyleBackColor = true;
+            this.btn_cargar_img.Click += new System.EventHandler(this.btn_cargar_img_Click);
             // 
             // pb_imagen
             // 
@@ -103,6 +105,7 @@
             this.btn_actualizar.TabIndex = 8;
             this.btn_actualizar.Text = "Actualizar Articulo";
             this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // txb_stock
             // 
@@ -203,6 +206,10 @@
             this.btncancelar.UseVisualStyleBackColor = true;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // Actualizar_Articulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,6 +220,7 @@
             this.Controls.Add(this.gbx_insertarProducto);
             this.Name = "Actualizar_Articulo";
             this.Text = "Actualizar_Articulo";
+            this.Load += new System.EventHandler(this.Actualizar_Articulo_Load);
             this.gbx_insertarProducto.ResumeLayout(false);
             this.gbx_insertarProducto.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_imagen)).EndInit();
@@ -237,5 +245,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btncancelar;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

@@ -36,11 +36,11 @@
             this.txb_localidadsede = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txb_idsede = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmb_idencargadosede = new System.Windows.Forms.ComboBox();
-            this.cmb_idsupermercadosede = new System.Windows.Forms.ComboBox();
+            this.cmb_idSede = new System.Windows.Forms.ComboBox();
             this.btncancelar = new System.Windows.Forms.Button();
+            this.txb_idEncargado = new System.Windows.Forms.TextBox();
+            this.txb_idSede = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,14 +71,14 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txb_idSede);
+            this.groupBox1.Controls.Add(this.txb_idEncargado);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txb_localidadsede);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txb_idsede);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.cmb_idencargadosede);
-            this.groupBox1.Controls.Add(this.cmb_idsupermercadosede);
+            this.groupBox1.Controls.Add(this.cmb_idSede);
             this.groupBox1.Location = new System.Drawing.Point(168, 89);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(471, 262);
@@ -89,11 +89,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(102, 185);
+            this.label5.Location = new System.Drawing.Point(140, 185);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(105, 13);
+            this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 10;
-            this.label5.Text = "ID_Spermercado:";
+            this.label5.Text = "ID_Sede:";
             // 
             // txb_localidadsede
             // 
@@ -108,9 +108,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(108, 141);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 13);
+            this.label4.Size = new System.Drawing.Size(92, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "ID_Enccargado:";
+            this.label4.Text = "ID_Encargado:";
             // 
             // label3
             // 
@@ -122,13 +122,6 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Localidad:";
             // 
-            // txb_idsede
-            // 
-            this.txb_idsede.Location = new System.Drawing.Point(213, 54);
-            this.txb_idsede.Name = "txb_idsede";
-            this.txb_idsede.Size = new System.Drawing.Size(121, 20);
-            this.txb_idsede.TabIndex = 5;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -139,21 +132,14 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "ID:";
             // 
-            // cmb_idencargadosede
+            // cmb_idSede
             // 
-            this.cmb_idencargadosede.FormattingEnabled = true;
-            this.cmb_idencargadosede.Location = new System.Drawing.Point(213, 133);
-            this.cmb_idencargadosede.Name = "cmb_idencargadosede";
-            this.cmb_idencargadosede.Size = new System.Drawing.Size(121, 21);
-            this.cmb_idencargadosede.TabIndex = 2;
-            // 
-            // cmb_idsupermercadosede
-            // 
-            this.cmb_idsupermercadosede.FormattingEnabled = true;
-            this.cmb_idsupermercadosede.Location = new System.Drawing.Point(213, 177);
-            this.cmb_idsupermercadosede.Name = "cmb_idsupermercadosede";
-            this.cmb_idsupermercadosede.Size = new System.Drawing.Size(121, 21);
-            this.cmb_idsupermercadosede.TabIndex = 3;
+            this.cmb_idSede.FormattingEnabled = true;
+            this.cmb_idSede.Location = new System.Drawing.Point(213, 53);
+            this.cmb_idSede.Name = "cmb_idSede";
+            this.cmb_idSede.Size = new System.Drawing.Size(121, 21);
+            this.cmb_idSede.TabIndex = 2;
+            this.cmb_idSede.SelectedIndexChanged += new System.EventHandler(this.cmb_idSede_SelectedIndexChanged);
             // 
             // btncancelar
             // 
@@ -169,6 +155,20 @@
             this.btncancelar.UseVisualStyleBackColor = true;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
+            // txb_idEncargado
+            // 
+            this.txb_idEncargado.Location = new System.Drawing.Point(213, 134);
+            this.txb_idEncargado.Name = "txb_idEncargado";
+            this.txb_idEncargado.Size = new System.Drawing.Size(121, 20);
+            this.txb_idEncargado.TabIndex = 11;
+            // 
+            // txb_idSede
+            // 
+            this.txb_idSede.Location = new System.Drawing.Point(213, 178);
+            this.txb_idSede.Name = "txb_idSede";
+            this.txb_idSede.Size = new System.Drawing.Size(121, 20);
+            this.txb_idSede.TabIndex = 12;
+            // 
             // Actualizar_Sede
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,6 +180,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Actualizar_Sede";
             this.Text = "Actualizar Sede";
+            this.Load += new System.EventHandler(this.Actualizar_Sede_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -196,10 +197,10 @@
         private System.Windows.Forms.TextBox txb_localidadsede;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txb_idsede;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cmb_idencargadosede;
-        private System.Windows.Forms.ComboBox cmb_idsupermercadosede;
+        private System.Windows.Forms.ComboBox cmb_idSede;
         private System.Windows.Forms.Button btncancelar;
+        private System.Windows.Forms.TextBox txb_idSede;
+        private System.Windows.Forms.TextBox txb_idEncargado;
     }
 }

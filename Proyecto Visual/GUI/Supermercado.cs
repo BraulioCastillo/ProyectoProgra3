@@ -46,6 +46,11 @@ namespace ProyectoFinal
             frmactualizar_supermercado.Show();
         }
 
+        public static explicit operator Supermercado(Capa_Negocio.Supermercado v)
+        {
+            throw new NotImplementedException();
+        }
+
         private void btn_actualizarsede_Click(object sender, EventArgs e)
         {
             Actualizar_Sede frmactualizar_sede = new Actualizar_Sede();
@@ -53,6 +58,11 @@ namespace ProyectoFinal
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Supermercado_Load(object sender, EventArgs e)
         {
 
         }

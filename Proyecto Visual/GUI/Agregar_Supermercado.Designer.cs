@@ -68,6 +68,7 @@
             this.btn_agregarsupermercado.TabIndex = 6;
             this.btn_agregarsupermercado.Text = "Agregar ";
             this.btn_agregarsupermercado.UseVisualStyleBackColor = true;
+            this.btn_agregarsupermercado.Click += new System.EventHandler(this.btn_agregarsupermercado_Click);
             // 
             // groupBox1
             // 
@@ -179,6 +180,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Agregar_Supermercado";
             this.Text = "Agregar Supermercado";
+            this.Load += new System.EventHandler(this.Agregar_Supermercado_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

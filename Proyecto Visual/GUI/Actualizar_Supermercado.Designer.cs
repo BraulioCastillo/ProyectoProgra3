@@ -31,14 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Actualizar_Supermercado));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txb_idDueño = new System.Windows.Forms.TextBox();
             this.txb_localidad = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txb_nombresupermercado = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txb_idsupermercado = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmb_iddueñosupermercado = new System.Windows.Forms.ComboBox();
+            this.cmb_idSupermercado = new System.Windows.Forms.ComboBox();
             this.btn_actualizarsupermercado = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -57,19 +57,27 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.txb_idDueño);
             this.groupBox1.Controls.Add(this.txb_localidad);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txb_nombresupermercado);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txb_idsupermercado);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.cmb_iddueñosupermercado);
+            this.groupBox1.Controls.Add(this.cmb_idSupermercado);
             this.groupBox1.Location = new System.Drawing.Point(162, 71);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(471, 262);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
+            // 
+            // txb_idDueño
+            // 
+            this.txb_idDueño.Enabled = false;
+            this.txb_idDueño.Location = new System.Drawing.Point(204, 185);
+            this.txb_idDueño.Name = "txb_idDueño";
+            this.txb_idDueño.Size = new System.Drawing.Size(121, 20);
+            this.txb_idDueño.TabIndex = 20;
             // 
             // txb_localidad
             // 
@@ -115,13 +123,6 @@
             this.label3.TabIndex = 15;
             this.label3.Text = "Nombre:";
             // 
-            // txb_idsupermercado
-            // 
-            this.txb_idsupermercado.Location = new System.Drawing.Point(204, 61);
-            this.txb_idsupermercado.Name = "txb_idsupermercado";
-            this.txb_idsupermercado.Size = new System.Drawing.Size(121, 20);
-            this.txb_idsupermercado.TabIndex = 14;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -132,13 +133,14 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "ID:";
             // 
-            // cmb_iddueñosupermercado
+            // cmb_idSupermercado
             // 
-            this.cmb_iddueñosupermercado.FormattingEnabled = true;
-            this.cmb_iddueñosupermercado.Location = new System.Drawing.Point(204, 184);
-            this.cmb_iddueñosupermercado.Name = "cmb_iddueñosupermercado";
-            this.cmb_iddueñosupermercado.Size = new System.Drawing.Size(121, 21);
-            this.cmb_iddueñosupermercado.TabIndex = 12;
+            this.cmb_idSupermercado.FormattingEnabled = true;
+            this.cmb_idSupermercado.Location = new System.Drawing.Point(204, 60);
+            this.cmb_idSupermercado.Name = "cmb_idSupermercado";
+            this.cmb_idSupermercado.Size = new System.Drawing.Size(121, 21);
+            this.cmb_idSupermercado.TabIndex = 12;
+            this.cmb_idSupermercado.SelectedIndexChanged += new System.EventHandler(this.cmb_iddueñosupermercado_SelectedIndexChanged);
             // 
             // btn_actualizarsupermercado
             // 
@@ -153,6 +155,7 @@
             this.btn_actualizarsupermercado.TabIndex = 8;
             this.btn_actualizarsupermercado.Text = "Actualizar";
             this.btn_actualizarsupermercado.UseVisualStyleBackColor = true;
+            this.btn_actualizarsupermercado.Click += new System.EventHandler(this.btn_actualizarsupermercado_Click);
             // 
             // btncancelar
             // 
@@ -179,6 +182,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Actualizar_Supermercado";
             this.Text = "Actualizar Supermercado";
+            this.Load += new System.EventHandler(this.Actualizar_Supermercado_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -195,10 +199,10 @@
         private System.Windows.Forms.TextBox txb_nombresupermercado;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txb_idsupermercado;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cmb_iddueñosupermercado;
+        private System.Windows.Forms.ComboBox cmb_idSupermercado;
         private System.Windows.Forms.Button btn_actualizarsupermercado;
         private System.Windows.Forms.Button btncancelar;
+        private System.Windows.Forms.TextBox txb_idDueño;
     }
 }

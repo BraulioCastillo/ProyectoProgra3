@@ -64,12 +64,6 @@
     <Compile Include="Actualizar_Supermercado.Designer.cs">
       <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Actualizar_Usuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Actualizar_Usuario.Designer.cs">
-      <DependentUpon>Actualizar_Usuario.cs</DependentUpon>
-    </Compile>
     <Compile Include="Agregar_Sede.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,11 +82,11 @@
     <Compile Include="Bodega.Designer.cs">
       <DependentUpon>Bodega.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consultar_Usuario.cs">
+    <Compile Include="Compras.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultar_Usuario.Designer.cs">
-      <DependentUpon>Consultar_Usuario.cs</DependentUpon>
+    <Compile Include="Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
     </Compile>
     <Compile Include="Consultas_Productos.cs">
       <SubType>Form</SubType>
@@ -106,12 +100,6 @@
     <Compile Include="Consulta_Supermercado.Designer.cs">
       <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
     </Compile>
-    <Compile Include="Eliminar_Usuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Eliminar_Usuario.Designer.cs">
-      <DependentUpon>Eliminar_Usuario.cs</DependentUpon>
-    </Compile>
     <Compile Include="Ingresar_Articulos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,12 +111,6 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Menu_Usuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu_Usuario.Designer.cs">
-      <DependentUpon>Menu_Usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -159,9 +141,6 @@
     <EmbeddedResource Include="Actualizar_Supermercado.resx">
       <DependentUpon>Actualizar_Supermercado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Actualizar_Usuario.resx">
-      <DependentUpon>Actualizar_Usuario.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Agregar_Sede.resx">
       <DependentUpon>Agregar_Sede.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,8 +150,8 @@
     <EmbeddedResource Include="Bodega.resx">
       <DependentUpon>Bodega.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consultar_Usuario.resx">
-      <DependentUpon>Consultar_Usuario.cs</DependentUpon>
+    <EmbeddedResource Include="Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultas_Productos.resx">
       <DependentUpon>Consultas_Productos.cs</DependentUpon>
@@ -180,17 +159,11 @@
     <EmbeddedResource Include="Consulta_Supermercado.resx">
       <DependentUpon>Consulta_Supermercado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Eliminar_Usuario.resx">
-      <DependentUpon>Eliminar_Usuario.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Ingresar_Articulos.resx">
       <DependentUpon>Ingresar_Articulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu_Usuario.resx">
-      <DependentUpon>Menu_Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -219,6 +192,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Capa_Datos\Capa_Datos.csproj">
+      <Project>{18582f97-8c00-4edb-983a-868ecc7095c3}</Project>
+      <Name>Capa_Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Capa_Entidad\Capa_Entidad.csproj">
       <Project>{b12a4f9f-c7d8-422d-9737-bc8978e4c3f8}</Project>
       <Name>Capa_Entidad</Name>
@@ -230,6 +207,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProyectoFinal.sln" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
