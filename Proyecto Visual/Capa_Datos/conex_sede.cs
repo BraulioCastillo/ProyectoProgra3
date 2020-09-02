@@ -78,7 +78,7 @@ namespace Capa_Datos
 
         #region modifica sede
 
-        public void modificaSede(int id, string nombre, string localidad)
+        public void modificaSede(int id,string localidad)
         {
 
 
@@ -86,9 +86,10 @@ namespace Capa_Datos
             {
                 cnx = new SqlConnection(conection);
                 cnx.Open();
-                cmd = new SqlCommand("execute modificaSede " + id + ", '" + nombre + "', '" + localidad + "'", cnx);
+                cmd = new SqlCommand("execute modificaSede " + id + ", '" + localidad + "'", cnx);
                 cmd.ExecuteNonQuery();
                 cnx.Close();
+                MessageBox.Show("Sede modificada");
 
             }
             catch (Exception)
@@ -106,13 +107,16 @@ namespace Capa_Datos
             {
                 cnx = new SqlConnection(conection);
                 cnx.Open();
-                cmd = new SqlCommand("selec * from Sede where Id = " + id, cnx);
+                cmd = new SqlCommand("select * from Sede where Id = " + id, cnx);
                 cmd.ExecuteNonQuery();
                 dataReader = cmd.ExecuteReader();
-                sede.IDEncargado = int.Parse(dataReader["ID_encargado"].ToString());
-                sede.Localidad = dataReader["localidad"].ToString();
-                sede.IDSuper = int.Parse(dataReader["ID_Supermercado"].ToString());
-                sede.IDSede = int.Parse(dataReader["Id"].ToString());
+                while (dataReader.Read())
+                {
+                    sede.IDEncargado = int.Parse(dataReader["ID_encargado"].ToString());
+                    sede.Localidad = dataReader["localidad"].ToString();
+                    sede.IDSuper = int.Parse(dataReader["ID_Supermercado"].ToString());
+                    sede.IDSede = int.Parse(dataReader["Id"].ToString());
+                }
             }
             catch (Exception)
             {
