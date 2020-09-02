@@ -45,8 +45,6 @@
             this.btncompras = new System.Windows.Forms.Button();
             this.btnbodega = new System.Windows.Forms.Button();
             this.btnusuarios = new System.Windows.Forms.Button();
-            this.lbl_apellidos = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +52,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(67, 31);
+            this.label1.Location = new System.Drawing.Point(67, 65);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 25);
             this.label1.TabIndex = 0;
@@ -65,12 +63,11 @@
             // 
             this.lblnombre.AutoSize = true;
             this.lblnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnombre.Location = new System.Drawing.Point(173, 31);
+            this.lblnombre.Location = new System.Drawing.Point(173, 65);
             this.lblnombre.Name = "lblnombre";
             this.lblnombre.Size = new System.Drawing.Size(93, 25);
             this.lblnombre.TabIndex = 2;
             this.lblnombre.Text = "Nombre";
-            this.lblnombre.Click += new System.EventHandler(this.lblnombre_Click);
             // 
             // label2
             // 
@@ -78,9 +75,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(98, 114);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 25);
+            this.label2.Size = new System.Drawing.Size(68, 25);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Roll:";
+            this.label2.Text = "Área:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblCargo
@@ -150,10 +147,10 @@
             // btnsede
             // 
             this.btnsede.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnsede.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsede.Location = new System.Drawing.Point(291, 303);
+            this.btnsede.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsede.Location = new System.Drawing.Point(36, 303);
             this.btnsede.Name = "btnsede";
-            this.btnsede.Size = new System.Drawing.Size(213, 62);
+            this.btnsede.Size = new System.Drawing.Size(156, 62);
             this.btnsede.TabIndex = 14;
             this.btnsede.Text = "Supermercado";
             this.btnsede.UseVisualStyleBackColor = false;
@@ -163,7 +160,7 @@
             // 
             this.btnventas.BackColor = System.Drawing.Color.Lime;
             this.btnventas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnventas.Location = new System.Drawing.Point(12, 303);
+            this.btnventas.Location = new System.Drawing.Point(198, 303);
             this.btnventas.Name = "btnventas";
             this.btnventas.Size = new System.Drawing.Size(127, 62);
             this.btnventas.TabIndex = 15;
@@ -175,7 +172,7 @@
             // 
             this.btncompras.BackColor = System.Drawing.Color.Yellow;
             this.btncompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncompras.Location = new System.Drawing.Point(145, 303);
+            this.btncompras.Location = new System.Drawing.Point(331, 303);
             this.btncompras.Name = "btncompras";
             this.btncompras.Size = new System.Drawing.Size(140, 62);
             this.btncompras.TabIndex = 16;
@@ -187,7 +184,7 @@
             // 
             this.btnbodega.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnbodega.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbodega.Location = new System.Drawing.Point(510, 303);
+            this.btnbodega.Location = new System.Drawing.Point(477, 303);
             this.btnbodega.Name = "btnbodega";
             this.btnbodega.Size = new System.Drawing.Size(131, 62);
             this.btnbodega.TabIndex = 17;
@@ -197,9 +194,9 @@
             // 
             // btnusuarios
             // 
-            this.btnusuarios.BackColor = System.Drawing.Color.MediumOrchid;
+            this.btnusuarios.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnusuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnusuarios.Location = new System.Drawing.Point(647, 303);
+            this.btnusuarios.Location = new System.Drawing.Point(614, 303);
             this.btnusuarios.Name = "btnusuarios";
             this.btnusuarios.Size = new System.Drawing.Size(145, 62);
             this.btnusuarios.TabIndex = 18;
@@ -207,33 +204,11 @@
             this.btnusuarios.UseVisualStyleBackColor = false;
             this.btnusuarios.Click += new System.EventHandler(this.btnusuarios_Click);
             // 
-            // lbl_apellidos
-            // 
-            this.lbl_apellidos.AutoSize = true;
-            this.lbl_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_apellidos.Location = new System.Drawing.Point(173, 68);
-            this.lbl_apellidos.Name = "lbl_apellidos";
-            this.lbl_apellidos.Size = new System.Drawing.Size(109, 25);
-            this.lbl_apellidos.TabIndex = 20;
-            this.lbl_apellidos.Text = "Apellidos";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(51, 68);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(116, 25);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Apellidos:";
-            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 389);
-            this.Controls.Add(this.lbl_apellidos);
-            this.Controls.Add(this.label6);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnusuarios);
             this.Controls.Add(this.btnbodega);
             this.Controls.Add(this.btncompras);
@@ -276,7 +251,5 @@
         private System.Windows.Forms.Button btncompras;
         private System.Windows.Forms.Button btnbodega;
         private System.Windows.Forms.Button btnusuarios;
-        private System.Windows.Forms.Label lbl_apellidos;
-        private System.Windows.Forms.Label label6;
     }
 }

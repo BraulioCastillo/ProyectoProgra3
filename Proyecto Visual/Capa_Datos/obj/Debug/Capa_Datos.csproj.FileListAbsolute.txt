@@ -34,12 +34,3 @@ C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Datos\bin\Debug\
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Datos\bin\Debug\Capa_Entidad.dll
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Datos\bin\Debug\Capa_Entidad.pdb
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\bin\Debug\Capa_Datos.dll
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\bin\Debug\Capa_Datos.pdb
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\bin\Debug\Capa_Entidad.dll
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\bin\Debug\Capa_Entidad.pdb
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\obj\Debug\Capa_Datos.dll
-C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 2\ProyectoProgra3-master\Proyecto Visual\Capa_Datos\obj\Debug\Capa_Datos.pdb
