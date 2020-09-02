@@ -36,7 +36,6 @@
             this.btn_actualizarsupermercado = new System.Windows.Forms.Button();
             this.btn_actualizarsede = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_consultarSede = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btncancelar
@@ -102,7 +101,7 @@
             this.btn_actualizarsupermercado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_actualizarsupermercado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_actualizarsupermercado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_actualizarsupermercado.Location = new System.Drawing.Point(71, 155);
+            this.btn_actualizarsupermercado.Location = new System.Drawing.Point(131, 155);
             this.btn_actualizarsupermercado.Name = "btn_actualizarsupermercado";
             this.btn_actualizarsupermercado.Size = new System.Drawing.Size(141, 40);
             this.btn_actualizarsupermercado.TabIndex = 10;
@@ -116,7 +115,7 @@
             this.btn_actualizarsede.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_actualizarsede.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_actualizarsede.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_actualizarsede.Location = new System.Drawing.Point(218, 155);
+            this.btn_actualizarsede.Location = new System.Drawing.Point(305, 155);
             this.btn_actualizarsede.Name = "btn_actualizarsede";
             this.btn_actualizarsede.Size = new System.Drawing.Size(141, 40);
             this.btn_actualizarsede.TabIndex = 11;
@@ -137,26 +136,12 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btn_consultarSede
-            // 
-            this.btn_consultarSede.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_consultarSede.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_consultarSede.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_consultarSede.Location = new System.Drawing.Point(365, 155);
-            this.btn_consultarSede.Name = "btn_consultarSede";
-            this.btn_consultarSede.Size = new System.Drawing.Size(141, 40);
-            this.btn_consultarSede.TabIndex = 13;
-            this.btn_consultarSede.Text = "Consultar Sede";
-            this.btn_consultarSede.UseVisualStyleBackColor = true;
-            this.btn_consultarSede.Click += new System.EventHandler(this.btn_consultarSede_Click);
-            // 
             // Supermercado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(564, 262);
-            this.Controls.Add(this.btn_consultarSede);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_actualizarsede);
             this.Controls.Add(this.btn_actualizarsupermercado);
@@ -182,6 +167,5 @@
         private System.Windows.Forms.Button btn_actualizarsupermercado;
         private System.Windows.Forms.Button btn_actualizarsede;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_consultarSede;
     }
 }

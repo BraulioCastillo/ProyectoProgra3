@@ -13,7 +13,7 @@ namespace DATOS
     public class D_Users
     {
 
-        SqlConnection cn = new SqlConnection("Data Source = BRAULIO\\SQSLEXPRESS; Initial Catalog = ProyectoFinal; Integrated Security = True");
+        SqlConnection cn = new SqlConnection("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
 
         //ConfigurationManager.ConnectionStrings["sql"].ConnectionString
 
@@ -22,8 +22,8 @@ namespace DATOS
 
             SqlCommand cmd = new SqlCommand("Logueo", cn);
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@usuario", obje.usuario);
-            cmd.Parameters.AddWithValue("@clave", obje.clave);
+            cmd.Parameters.AddWithValue("@ID", obje.usuario);
+            cmd.Parameters.AddWithValue("@contraseña", obje.clave);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);

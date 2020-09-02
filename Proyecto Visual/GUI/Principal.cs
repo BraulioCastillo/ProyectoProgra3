@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
         private void Principal_Load(object sender, EventArgs e)
         {
             //Administradores
-            if (Login1.area == "A1")
+            if (Login1.roll == "Admin")
 
             {
                 btnsede.Enabled = true;
@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
             }
 
             //Vendedores
-            else if (Login1.area == "A2")
+            else if (Login1.roll == "Cliente")
 
             {
                 btnsede.Enabled = false;
@@ -43,25 +43,11 @@ namespace WindowsFormsApp1
                 btnbodega.Enabled = true;
                 btnusuarios.Enabled = true;
 
-                lblCargo.Text = "Ventas";
+                lblCargo.Text = "Cliente";
             }
-
-            //Bodega
-            else if (Login1.area == "A3")
-
-            {
-                btnsede.Enabled = false;
-                btnventas.Enabled = true;
-                btncompras.Enabled = true;
-                btnbodega.Enabled = true;
-                btnusuarios.Enabled = false;
-
-                lblCargo.Text = "Bodega";
-            }
-
             lblnombre.Text = Login1.usuario_nombre;
+            lbl_apellidos.Text = Login1.apellidos;
             timer1.Start();
-
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -116,6 +102,11 @@ namespace WindowsFormsApp1
             bodega.Show();
             login.Hide();
 
+
+        }
+
+        private void lblnombre_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -68,7 +68,6 @@
             this.btn_acutualizarsede.TabIndex = 7;
             this.btn_acutualizarsede.Text = "Actualizar";
             this.btn_acutualizarsede.UseVisualStyleBackColor = true;
-            this.btn_acutualizarsede.Click += new System.EventHandler(this.btn_acutualizarsede_Click);
             // 
             // groupBox1
             // 
@@ -158,7 +157,6 @@
             // 
             // txb_idEncargado
             // 
-            this.txb_idEncargado.Enabled = false;
             this.txb_idEncargado.Location = new System.Drawing.Point(213, 134);
             this.txb_idEncargado.Name = "txb_idEncargado";
             this.txb_idEncargado.Size = new System.Drawing.Size(121, 20);
@@ -166,7 +164,6 @@
             // 
             // txb_idSede
             // 
-            this.txb_idSede.Enabled = false;
             this.txb_idSede.Location = new System.Drawing.Point(213, 178);
             this.txb_idSede.Name = "txb_idSede";
             this.txb_idSede.Size = new System.Drawing.Size(121, 20);
