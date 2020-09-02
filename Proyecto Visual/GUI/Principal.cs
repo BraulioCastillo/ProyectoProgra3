@@ -1,5 +1,4 @@
-﻿using ProyectoFinal;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProyectoFinal;
 
 namespace WindowsFormsApp1
 {
@@ -21,33 +21,34 @@ namespace WindowsFormsApp1
         private void Principal_Load(object sender, EventArgs e)
         {
             //Administradores
-            if (Login1.roll == "Admin")
+            if (Login.area == "A1")
 
             {
-                btnsede.Enabled = true;
-                btnventas.Enabled = true;
-                btncompras.Enabled = true;
-                btnbodega.Enabled = true;
-                btnusuarios.Enabled = true;
+                btn_supermercado.Enabled = true;
+                btn_ventas.Enabled = true;
+                btn_compras.Enabled = true;
+                btn_bodega.Enabled = true;
+                btn_usuarios.Enabled = true;
 
-                lblCargo.Text = "Administrador";
+                lblCargo.Text = "Administración";
             }
 
             //Vendedores
-            else if (Login1.roll == "Cliente")
+            else if (Login.area == "A2")
 
             {
-                btnsede.Enabled = false;
-                btnventas.Enabled = true;
-                btncompras.Enabled = false;
-                btnbodega.Enabled = true;
-                btnusuarios.Enabled = true;
+                btn_supermercado.Enabled = false;
+                btn_ventas.Enabled = true;
+                btn_compras.Enabled = true;
+                btn_bodega.Enabled = false;
+                btn_usuarios.Enabled = false;
 
-                lblCargo.Text = "Cliente";
+                lblCargo.Text = "Clientes";
             }
-            lblnombre.Text = Login1.usuario_nombre;
-            lbl_apellidos.Text = Login1.apellidos;
+
+            lblnombre.Text = Login.usuario_nombre;
             timer1.Start();
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -76,12 +77,9 @@ namespace WindowsFormsApp1
 
         }
 
-        private void btnsede_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Supermercado super = new Supermercado();
-            super.Show();
-            Login1 login = new Login1();
-            login.Hide();
+            this.Close();
         }
 
         private void btncompras_Click(object sender, EventArgs e)
@@ -89,25 +87,16 @@ namespace WindowsFormsApp1
 
         }
 
-        private void btnusuarios_Click(object sender, EventArgs e)
+        private void btn_supermercado_Click(object sender, EventArgs e)
         {
-
+            Supermercado frmsupermercado = new Supermercado();
+            frmsupermercado.Show();
         }
 
-        private void btnbodega_Click(object sender, EventArgs e)
+        private void btn_bodega_Click(object sender, EventArgs e)
         {
-
-            Bodega bodega = new Bodega();
-            Login1 login = new Login1();
-            bodega.Show();
-            login.Hide();
-
-
-        }
-
-        private void lblnombre_Click(object sender, EventArgs e)
-        {
-
+            Bodega frmbodega = new Bodega();
+            frmbodega.Show();
         }
     }
 }

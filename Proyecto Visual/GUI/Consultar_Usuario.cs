@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace ProyectoFinal
 {
-    public partial class Agregar_Sede : Form
+    public partial class Consultar_Usuario : Form
     {
-        public Agregar_Sede()
+        public Consultar_Usuario()
         {
             InitializeComponent();
         }
 
-        private void btncancelar_Click(object sender, EventArgs e)
+        private void btn_salir_Click(object sender, EventArgs e)
         {
             this.Close();
         }
