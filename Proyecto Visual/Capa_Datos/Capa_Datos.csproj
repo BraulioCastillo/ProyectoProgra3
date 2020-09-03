@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="conex_art.cs" />
     <Compile Include="conex_carrito.cs" />
+    <Compile Include="conex_detalle.cs" />
+    <Compile Include="conex_factura.cs" />
     <Compile Include="conex_sede.cs" />
     <Compile Include="conex_super.cs" />
     <Compile Include="conex_ventas.cs" />

@@ -1,4 +1,5 @@
-﻿using Datos_;
+﻿using Capa_Datos;
+using Datos_;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +20,7 @@ namespace ProyectoFinal
         public SqlConnection cnx;
         SqlDataReader dataReader;
         public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
-
+        double totalFactura;
         public Carrito_compras()
         {
             Login1 login = new Login1();
@@ -30,6 +31,8 @@ namespace ProyectoFinal
             cmd = new SqlCommand("select * from Articulo", cnx);
             cmd.ExecuteNonQuery();
             dataReader = cmd.ExecuteReader();
+            conex_detalle detalle = new conex_detalle();
+            label6.Text = "Factura #" + detalle.numeroFactura();
             while (dataReader.Read())
             {
                 cmb_consultaId.Items.Add(dataReader["codigo"].ToString());
@@ -56,7 +59,7 @@ namespace ProyectoFinal
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            double precio, totalArticulo = 0, totalFactura = 0;
+            double precio, totalArticulo = 0;
             int existencias = 0;
             double cant;
             if (rbtnEfectivo.Checked || rbtnTarjeta.Checked)
@@ -81,6 +84,7 @@ namespace ProyectoFinal
                                 totalArticulo = (precio * 1.13) * cant;
                                 totalFactura += totalArticulo;
                             }
+                            lblTotal.Text = "Total: " + totalFactura; 
                             dataGridView1.Rows.Add(cmb_consultaId.Text, txtDetalle.Text, txtExistencias.Text, nudCantidad.Value, precio, totalArticulo);
                             txtDetalle.Text = "";
                             txtExistencias.Text = "";
@@ -128,10 +132,34 @@ namespace ProyectoFinal
             cnx.Close();
         }
 
+        private void btnProcesarFactura_Click(object sender, EventArgs e)
+        {
+            int idArticulo, idFactura, valorArticulo, cantidad, valorTotal;
+            conex_detalle conex_Detalle = new conex_detalle();
+            try
+            {
+                conex_factura conex = new conex_factura();
+                conex.agregaFactura(DateTime.Now.ToString("dd/MM/yyyy"), totalFactura, int.Parse(textBox1.Text));
+                for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+                {
+                    idArticulo = int.Parse(dataGridView1.Rows[i].Cells["Código"].Value.ToString());
+                    idFactura = conex_Detalle.numeroFactura();
+                    cantidad = int.Parse(dataGridView1.Rows[i].Cells["Cantidad"].Value.ToString());
+                    valorArticulo = int.Parse(dataGridView1.Rows[i].Cells["Precio unitario"].Value.ToString());
+                    valorTotal = int.Parse(dataGridView1.Rows[i].Cells["Total"].Value.ToString());
+
+                    conex_Detalle.ingresaDetalle(idArticulo, idFactura, valorArticulo, cantidad, valorTotal);
+                }
+            }
+            catch (Exception)
+            {
+                //throw;
+                //MessageBox.Show("Hubo un problema al agregar el detalle");
+            }
+        }
+
         private void btn_consultar_Click_1(object sender, EventArgs e)
         {
-
-
         
         }
     }

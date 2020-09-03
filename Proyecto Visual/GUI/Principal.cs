@@ -73,7 +73,10 @@ namespace WindowsFormsApp1
 
         private void btnventas_Click_1(object sender, EventArgs e)
         {
-
+            Consultar_facturasYdetalle consultar = new Consultar_facturasYdetalle();
+            consultar.Show();
+            Login1 login = new Login1();
+            login.Close();
         }
 
         private void btnsede_Click(object sender, EventArgs e)

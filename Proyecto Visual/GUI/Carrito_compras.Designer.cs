@@ -29,6 +29,13 @@
         private void InitializeComponent()
         {
             this.gbx_consultar = new System.Windows.Forms.GroupBox();
+            this.txtDetalle = new System.Windows.Forms.TextBox();
+            this.txtExistencias = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.cmb_consultaId = new System.Windows.Forms.ComboBox();
@@ -45,13 +52,9 @@
             this.rbtnEfectivo = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rbtnTarjeta = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.txtExistencias = new System.Windows.Forms.TextBox();
-            this.txtDetalle = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.gbx_consultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -80,6 +83,67 @@
             this.gbx_consultar.TabStop = false;
             this.gbx_consultar.Text = "Consultar Productos";
             this.gbx_consultar.Enter += new System.EventHandler(this.gbx_consultar_Enter);
+            // 
+            // txtDetalle
+            // 
+            this.txtDetalle.Enabled = false;
+            this.txtDetalle.Location = new System.Drawing.Point(319, 26);
+            this.txtDetalle.Multiline = true;
+            this.txtDetalle.Name = "txtDetalle";
+            this.txtDetalle.Size = new System.Drawing.Size(243, 93);
+            this.txtDetalle.TabIndex = 26;
+            // 
+            // txtExistencias
+            // 
+            this.txtExistencias.Enabled = false;
+            this.txtExistencias.Location = new System.Drawing.Point(112, 93);
+            this.txtExistencias.Name = "txtExistencias";
+            this.txtExistencias.Size = new System.Drawing.Size(121, 26);
+            this.txtExistencias.TabIndex = 25;
+            // 
+            // txtPrecio
+            // 
+            this.txtPrecio.Enabled = false;
+            this.txtPrecio.Location = new System.Drawing.Point(112, 60);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(121, 26);
+            this.txtPrecio.TabIndex = 24;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(17, 66);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 20);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Precio";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(17, 96);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(89, 20);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Existencias";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(254, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 20);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Detalle";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(17, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 20);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Código";
             // 
             // nudCantidad
             // 
@@ -136,11 +200,12 @@
             this.btnProcesarFactura.TabIndex = 12;
             this.btnProcesarFactura.Text = "Procesar factura";
             this.btnProcesarFactura.UseVisualStyleBackColor = true;
+            this.btnProcesarFactura.Click += new System.EventHandler(this.btnProcesarFactura_Click);
             // 
             // dtpFecha
             // 
             this.dtpFecha.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFecha.Location = new System.Drawing.Point(588, 31);
+            this.dtpFecha.Location = new System.Drawing.Point(685, 27);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(200, 20);
             this.dtpFecha.TabIndex = 13;
@@ -150,7 +215,7 @@
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(880, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(966, 24);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "msMenu";
             // 
@@ -169,7 +234,7 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(794, 27);
+            this.btnSalir.Location = new System.Drawing.Point(891, 26);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 31);
             this.btnSalir.TabIndex = 15;
@@ -222,72 +287,42 @@
             this.rbtnTarjeta.Text = "Tarjeta";
             this.rbtnTarjeta.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 20);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Código";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(294, 37);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(26, 20);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "ID";
             // 
-            // label3
+            // textBox1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(254, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 20);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Detalle";
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(326, 31);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 26);
+            this.textBox1.TabIndex = 19;
             // 
-            // label4
+            // label6
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 96);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 20);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Existencias";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 66);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 20);
-            this.label5.TabIndex = 23;
-            this.label5.Text = "Precio";
-            // 
-            // txtPrecio
-            // 
-            this.txtPrecio.Enabled = false;
-            this.txtPrecio.Location = new System.Drawing.Point(112, 60);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(121, 26);
-            this.txtPrecio.TabIndex = 24;
-            // 
-            // txtExistencias
-            // 
-            this.txtExistencias.Enabled = false;
-            this.txtExistencias.Location = new System.Drawing.Point(112, 93);
-            this.txtExistencias.Name = "txtExistencias";
-            this.txtExistencias.Size = new System.Drawing.Size(121, 26);
-            this.txtExistencias.TabIndex = 25;
-            // 
-            // txtDetalle
-            // 
-            this.txtDetalle.Enabled = false;
-            this.txtDetalle.Location = new System.Drawing.Point(319, 26);
-            this.txtDetalle.Multiline = true;
-            this.txtDetalle.Name = "txtDetalle";
-            this.txtDetalle.Size = new System.Drawing.Size(243, 93);
-            this.txtDetalle.TabIndex = 26;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(682, 60);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 20);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "lblFactura";
             // 
             // Carrito_compras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 528);
+            this.ClientSize = new System.Drawing.Size(966, 528);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.dtpFecha);
@@ -337,5 +372,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtExistencias;
         private System.Windows.Forms.TextBox txtDetalle;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label6;
     }
 }
