@@ -66,7 +66,7 @@
             this.btnlogin.ForeColor = System.Drawing.Color.White;
             this.btnlogin.Location = new System.Drawing.Point(304, 222);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(100, 40);
+            this.btnlogin.Size = new System.Drawing.Size(107, 40);
             this.btnlogin.TabIndex = 2;
             this.btnlogin.Text = "Iniciar sesión";
             this.btnlogin.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@
             this.btncancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.ForeColor = System.Drawing.Color.White;
-            this.btncancelar.Location = new System.Drawing.Point(427, 222);
+            this.btncancelar.Location = new System.Drawing.Point(420, 222);
             this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(100, 40);
+            this.btncancelar.Size = new System.Drawing.Size(107, 40);
             this.btncancelar.TabIndex = 5;
             this.btncancelar.Text = "Salir";
             this.btncancelar.UseVisualStyleBackColor = true;
@@ -119,7 +119,7 @@
             this.btn_registrarusuario.UseVisualStyleBackColor = true;
             this.btn_registrarusuario.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // Login
+            // Login1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -136,7 +136,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Login";
+            this.Name = "Login1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Login_Load);

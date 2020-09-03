@@ -19,7 +19,7 @@ namespace ProyectoFinal
         public SqlCommand cmd, command;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
+        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
         double totalFactura;
         public Carrito_compras()
         {
@@ -130,6 +130,33 @@ namespace ProyectoFinal
                 txtExistencias.Text = dataReader["existencias"].ToString();
             }
             cnx.Close();
+            #region Imagen
+            conex_art conexion = new conex_art("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True"); 
+            DataSet ds = new DataSet();
+            SqlDataAdapter da;
+            DataRow dr;
+
+            string cadSql = "select codigo from Articulo where codigo = '" + int.Parse(cmb_consultaId.Text) + "'";
+            SqlCommand comando = new SqlCommand(cadSql, conexion.conecta());
+            conexion.con.Open();
+
+            SqlDataReader leer = comando.ExecuteReader();
+            if (leer.Read() == true)
+            {
+                cmb_consultaId.Text = leer["codigo"].ToString();
+                da = new SqlDataAdapter("Select imagen from Articulo where codigo = '" + int.Parse(cmb_consultaId.Text) + "'", conexion.conexion);
+                ds = new DataSet();
+                da.Fill(ds, "Articulo");
+                byte[] datos = new byte[0];
+                dr = ds.Tables["Articulo"].Rows[0];
+                datos = (byte[])dr["imagen"];
+                System.IO.MemoryStream ms = new System.IO.MemoryStream(datos);
+                pictureBox1.Image = System.Drawing.Bitmap.FromStream(ms);
+
+                ds = conexion.Consultar(int.Parse(cmb_consultaId.Text));
+                conexion.con.Close();
+            }
+            #endregion
         }
 
         private void btnProcesarFactura_Click(object sender, EventArgs e)
@@ -139,7 +166,7 @@ namespace ProyectoFinal
             try
             {
                 conex_factura conex = new conex_factura();
-                conex.agregaFactura(DateTime.Now.ToString("dd/MM/yyyy"), totalFactura, int.Parse(textBox1.Text));
+                conex.agregaFactura(DateTime.Now.ToString("dd/MM/yyyy"), totalFactura, int.Parse(txb_ID.Text));
                 for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
                 {
                     idArticulo = int.Parse(dataGridView1.Rows[i].Cells["Código"].Value.ToString());
@@ -156,6 +183,21 @@ namespace ProyectoFinal
                 //throw;
                 //MessageBox.Show("Hubo un problema al agregar el detalle");
             }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txb_ID_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void btn_consultar_Click_1(object sender, EventArgs e)

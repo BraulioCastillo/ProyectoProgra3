@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Compras));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgv_carrito = new System.Windows.Forms.DataGridView();
             this.gbx_consultar = new System.Windows.Forms.GroupBox();
@@ -38,6 +39,8 @@
             this.dgv_productos = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_consultar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_carrito)).BeginInit();
             this.gbx_consultar.SuspendLayout();
@@ -48,8 +51,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox1.Controls.Add(this.dgv_carrito);
-            this.groupBox1.Location = new System.Drawing.Point(30, 214);
+            this.groupBox1.Location = new System.Drawing.Point(30, 287);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(740, 222);
             this.groupBox1.TabIndex = 5;
@@ -67,6 +72,8 @@
             // 
             // gbx_consultar
             // 
+            this.gbx_consultar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gbx_consultar.BackgroundImage")));
+            this.gbx_consultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gbx_consultar.Controls.Add(this.Cantidad);
             this.gbx_consultar.Controls.Add(this.nup_cantidad);
             this.gbx_consultar.Controls.Add(this.button1);
@@ -74,7 +81,7 @@
             this.gbx_consultar.Controls.Add(this.dgv_productos);
             this.gbx_consultar.Controls.Add(this.pictureBox1);
             this.gbx_consultar.Controls.Add(this.btn_consultar);
-            this.gbx_consultar.Location = new System.Drawing.Point(30, 15);
+            this.gbx_consultar.Location = new System.Drawing.Point(30, 88);
             this.gbx_consultar.Margin = new System.Windows.Forms.Padding(4);
             this.gbx_consultar.Name = "gbx_consultar";
             this.gbx_consultar.Padding = new System.Windows.Forms.Padding(4);
@@ -101,10 +108,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(577, 141);
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(593, 135);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 43);
+            this.button1.Size = new System.Drawing.Size(124, 49);
             this.button1.TabIndex = 12;
             this.button1.Text = "Cargar al Carrito";
             this.button1.UseVisualStyleBackColor = true;
@@ -137,22 +148,58 @@
             // 
             // btn_consultar
             // 
+            this.btn_consultar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_consultar.BackgroundImage")));
+            this.btn_consultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_consultar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_consultar.Location = new System.Drawing.Point(8, 23);
             this.btn_consultar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_consultar.Name = "btn_consultar";
-            this.btn_consultar.Size = new System.Drawing.Size(124, 43);
+            this.btn_consultar.Size = new System.Drawing.Size(124, 53);
             this.btn_consultar.TabIndex = 9;
             this.btn_consultar.Text = "Consultar Por Código";
             this.btn_consultar.UseVisualStyleBackColor = true;
             this.btn_consultar.Click += new System.EventHandler(this.btn_consultar_Click);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnSalir.Location = new System.Drawing.Point(698, 528);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(101, 41);
+            this.btnSalir.TabIndex = 16;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(238, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(351, 40);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Consultar Productos";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Compras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(804, 574);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbx_consultar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Compras";
             this.Text = "Compras";
             this.Load += new System.EventHandler(this.Compras_Load);
@@ -164,6 +211,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_productos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -179,5 +227,7 @@
         private System.Windows.Forms.DataGridView dgv_productos;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn_consultar;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Label label1;
     }
 }

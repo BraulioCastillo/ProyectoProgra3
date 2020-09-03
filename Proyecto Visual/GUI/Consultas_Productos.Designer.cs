@@ -51,17 +51,19 @@
             // 
             this.btn_regresar_productos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_regresar_productos.BackgroundImage")));
             this.btn_regresar_productos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_regresar_productos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_regresar_productos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_regresar_productos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_regresar_productos.Location = new System.Drawing.Point(666, 244);
+            this.btn_regresar_productos.Location = new System.Drawing.Point(666, 251);
             this.btn_regresar_productos.Name = "btn_regresar_productos";
-            this.btn_regresar_productos.Size = new System.Drawing.Size(122, 67);
+            this.btn_regresar_productos.Size = new System.Drawing.Size(122, 50);
             this.btn_regresar_productos.TabIndex = 12;
             this.btn_regresar_productos.Text = "Regresar";
             this.btn_regresar_productos.UseVisualStyleBackColor = true;
             // 
             // gbx_consultar
             // 
+            this.gbx_consultar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gbx_consultar.BackgroundImage")));
+            this.gbx_consultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gbx_consultar.Controls.Add(this.cmb_consultaId);
             this.gbx_consultar.Controls.Add(this.pictureBox1);
             this.gbx_consultar.Controls.Add(this.dgv_productos);
@@ -78,7 +80,7 @@
             // cmb_consultaId
             // 
             this.cmb_consultaId.FormattingEnabled = true;
-            this.cmb_consultaId.Location = new System.Drawing.Point(11, 73);
+            this.cmb_consultaId.Location = new System.Drawing.Point(12, 85);
             this.cmb_consultaId.Name = "cmb_consultaId";
             this.cmb_consultaId.Size = new System.Drawing.Size(121, 21);
             this.cmb_consultaId.TabIndex = 12;
@@ -102,10 +104,13 @@
             // 
             // btn_consultar
             // 
+            this.btn_consultar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_consultar.BackgroundImage")));
+            this.btn_consultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_consultar.Location = new System.Drawing.Point(8, 23);
             this.btn_consultar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_consultar.Name = "btn_consultar";
-            this.btn_consultar.Size = new System.Drawing.Size(124, 43);
+            this.btn_consultar.Size = new System.Drawing.Size(124, 55);
             this.btn_consultar.TabIndex = 9;
             this.btn_consultar.Text = "Consultar Por Código";
             this.btn_consultar.UseVisualStyleBackColor = true;
@@ -115,10 +120,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Wide Latin", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(161, 9);
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(238, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(491, 33);
+            this.label1.Size = new System.Drawing.Size(355, 40);
             this.label1.TabIndex = 13;
             this.label1.Text = "Consultas Productos";
             // 
@@ -126,11 +133,11 @@
             // 
             this.btncancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btncancelar.BackgroundImage")));
             this.btncancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.ForeColor = System.Drawing.Color.White;
-            this.btncancelar.Location = new System.Drawing.Point(666, 317);
+            this.btncancelar.Location = new System.Drawing.Point(666, 307);
             this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(122, 40);
+            this.btncancelar.Size = new System.Drawing.Size(122, 50);
             this.btncancelar.TabIndex = 14;
             this.btncancelar.Text = "Salir";
             this.btncancelar.UseVisualStyleBackColor = true;
@@ -138,6 +145,8 @@
             // 
             // gbx_eliminar
             // 
+            this.gbx_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gbx_eliminar.BackgroundImage")));
+            this.gbx_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gbx_eliminar.Controls.Add(this.cmb_consultaId2);
             this.gbx_eliminar.Controls.Add(this.btn_eliminar);
             this.gbx_eliminar.Controls.Add(this.label6);
@@ -153,14 +162,18 @@
             // cmb_consultaId2
             // 
             this.cmb_consultaId2.FormattingEnabled = true;
-            this.cmb_consultaId2.Location = new System.Drawing.Point(36, 51);
+            this.cmb_consultaId2.Location = new System.Drawing.Point(57, 50);
             this.cmb_consultaId2.Name = "cmb_consultaId2";
             this.cmb_consultaId2.Size = new System.Drawing.Size(139, 21);
             this.cmb_consultaId2.TabIndex = 13;
             // 
             // btn_eliminar
             // 
-            this.btn_eliminar.Location = new System.Drawing.Point(348, 44);
+            this.btn_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.BackgroundImage")));
+            this.btn_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_eliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_eliminar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_eliminar.Location = new System.Drawing.Point(345, 31);
             this.btn_eliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(136, 41);
@@ -172,10 +185,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(33, 34);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(33, 31);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(142, 13);
+            this.label6.Size = new System.Drawing.Size(188, 17);
             this.label6.TabIndex = 6;
             this.label6.Text = "Digite el Código de Producto";
             // 
@@ -183,12 +198,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(805, 369);
             this.Controls.Add(this.gbx_eliminar);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_regresar_productos);
             this.Controls.Add(this.gbx_consultar);
+            this.DoubleBuffered = true;
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Consultas_Productos";
             this.Text = "Consultas Productos";
             this.Load += new System.EventHandler(this.Consultas_Productos_Load);

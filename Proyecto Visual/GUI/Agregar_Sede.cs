@@ -19,7 +19,7 @@ namespace ProyectoFinal
         public SqlCommand cmd, command;
         public SqlConnection cnx;
         SqlDataReader dataReader, dr;
-        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
+        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
         conex_sede conex_Sede;
 
         public Agregar_Sede()

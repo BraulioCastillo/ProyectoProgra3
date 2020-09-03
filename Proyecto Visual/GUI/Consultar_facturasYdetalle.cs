@@ -35,5 +35,15 @@ namespace ProyectoFinal
             detalle.Show();
             this.Hide();
         }
+
+        private void Consultar_facturasYdetalle_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

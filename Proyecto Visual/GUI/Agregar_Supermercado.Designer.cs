@@ -48,10 +48,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Wide Latin", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(132, 9);
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(158, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(543, 33);
+            this.label1.Size = new System.Drawing.Size(402, 40);
             this.label1.TabIndex = 1;
             this.label1.Text = "Agregar Supermercado";
             // 
@@ -60,9 +62,9 @@
             this.btn_agregarsupermercado.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_agregarsupermercado.BackgroundImage")));
             this.btn_agregarsupermercado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_agregarsupermercado.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btn_agregarsupermercado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_agregarsupermercado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_agregarsupermercado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_agregarsupermercado.Location = new System.Drawing.Point(337, 388);
+            this.btn_agregarsupermercado.Location = new System.Drawing.Point(287, 347);
             this.btn_agregarsupermercado.Name = "btn_agregarsupermercado";
             this.btn_agregarsupermercado.Size = new System.Drawing.Size(123, 36);
             this.btn_agregarsupermercado.TabIndex = 6;
@@ -72,6 +74,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox1.Controls.Add(this.txb_localidad);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txb_nombresupermercado);
@@ -80,7 +84,7 @@
             this.groupBox1.Controls.Add(this.txb_idsupermercado);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.cmb_iddueñosupermercado);
-            this.groupBox1.Location = new System.Drawing.Point(160, 87);
+            this.groupBox1.Location = new System.Drawing.Point(114, 79);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(471, 262);
             this.groupBox1.TabIndex = 7;
@@ -96,10 +100,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(130, 192);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(114, 185);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 13);
+            this.label5.Size = new System.Drawing.Size(84, 17);
             this.label5.TabIndex = 18;
             this.label5.Text = "ID_Dueño:";
             // 
@@ -113,20 +117,20 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(132, 148);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(118, 142);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(83, 17);
             this.label4.TabIndex = 16;
             this.label4.Text = "Localidad:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(144, 109);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(132, 103);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
+            this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 15;
             this.label3.Text = "Nombre:";
             // 
@@ -140,12 +144,13 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(174, 68);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(170, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 13);
+            this.label2.Size = new System.Drawing.Size(28, 17);
             this.label2.TabIndex = 13;
             this.label2.Text = "ID:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // cmb_iddueñosupermercado
             // 
@@ -159,9 +164,9 @@
             // 
             this.btncancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btncancelar.BackgroundImage")));
             this.btncancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.ForeColor = System.Drawing.Color.White;
-            this.btncancelar.Location = new System.Drawing.Point(698, 408);
+            this.btncancelar.Location = new System.Drawing.Point(602, 398);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(100, 40);
             this.btncancelar.TabIndex = 8;
@@ -173,11 +178,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(709, 444);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_agregarsupermercado);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Agregar_Supermercado";
             this.Text = "Agregar Supermercado";
             this.Load += new System.EventHandler(this.Agregar_Supermercado_Load);
