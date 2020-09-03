@@ -40,9 +40,9 @@
             // 
             this.btn_salir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_salir.BackgroundImage")));
             this.btn_salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salir.ForeColor = System.Drawing.Color.White;
-            this.btn_salir.Location = new System.Drawing.Point(192, 214);
+            this.btn_salir.Location = new System.Drawing.Point(423, 226);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(100, 40);
             this.btn_salir.TabIndex = 26;
@@ -54,10 +54,12 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Wide Latin", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(67, 9);
+            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(110, 9);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(374, 28);
+            this.label9.Size = new System.Drawing.Size(310, 40);
             this.label9.TabIndex = 27;
             this.label9.Text = "Consultar Usuario";
             // 
@@ -65,9 +67,9 @@
             // 
             this.btn_consultararusuario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_consultararusuario.BackgroundImage")));
             this.btn_consultararusuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_consultararusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_consultararusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_consultararusuario.ForeColor = System.Drawing.Color.White;
-            this.btn_consultararusuario.Location = new System.Drawing.Point(160, 168);
+            this.btn_consultararusuario.Location = new System.Drawing.Point(180, 179);
             this.btn_consultararusuario.Name = "btn_consultararusuario";
             this.btn_consultararusuario.Size = new System.Drawing.Size(174, 40);
             this.btn_consultararusuario.TabIndex = 28;
@@ -78,7 +80,7 @@
             // dgv_productos
             // 
             this.dgv_productos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_productos.Location = new System.Drawing.Point(13, 56);
+            this.dgv_productos.Location = new System.Drawing.Point(13, 67);
             this.dgv_productos.Margin = new System.Windows.Forms.Padding(4);
             this.dgv_productos.Name = "dgv_productos";
             this.dgv_productos.Size = new System.Drawing.Size(493, 105);
@@ -89,11 +91,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(535, 266);
+            this.ClientSize = new System.Drawing.Size(528, 270);
             this.Controls.Add(this.dgv_productos);
             this.Controls.Add(this.btn_consultararusuario);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btn_salir);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Consultar_Usuario";
             this.Text = "Consultar_Usuario";
             this.Load += new System.EventHandler(this.Consultar_Usuario_Load);

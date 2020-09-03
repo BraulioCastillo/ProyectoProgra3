@@ -18,7 +18,7 @@ namespace ProyectoFinal
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
+        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
 
         public Agregar_Supermercado()
         {
@@ -51,6 +51,11 @@ namespace ProyectoFinal
         }
 
         private void Agregar_Supermercado_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

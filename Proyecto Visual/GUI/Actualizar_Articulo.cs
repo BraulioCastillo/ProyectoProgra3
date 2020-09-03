@@ -13,7 +13,7 @@ namespace ProyectoFinal
 {
     public partial class Actualizar_Articulo : Form
     {
-        conex_art conexion = new conex_art("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
+        conex_art conexion = new conex_art("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
         public Actualizar_Articulo()
         {
             InitializeComponent();

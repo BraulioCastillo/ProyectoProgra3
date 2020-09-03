@@ -16,7 +16,7 @@ namespace ProyectoFinal
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
+        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
 
         public Consultar_Factura()
         {
@@ -47,6 +47,11 @@ namespace ProyectoFinal
         private void Consultar_Factura_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

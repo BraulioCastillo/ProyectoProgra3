@@ -42,3 +42,14 @@ C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNI
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 4 antes de morir\ProyectoProgra3-master\Proyecto Visual\Capa_Negocio\obj\Debug\Capa_Negocios.csproj.CopyComplete
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 4 antes de morir\ProyectoProgra3-master\Proyecto Visual\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 4 antes de morir\ProyectoProgra3-master\Proyecto Visual\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\obj\Debug\Capa_Negocios.csprojAssemblyReference.cache
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\obj\Debug\Capa_Negocios.csproj.CoreCompileInputs.cache
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\obj\Debug\Capa_Negocios.csproj.CopyComplete
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\VERSION FINAL\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

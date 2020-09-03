@@ -45,5 +45,15 @@ namespace ProyectoFinal
             Eliminar_Usuario frmeliminarusuario = new Eliminar_Usuario();
             frmeliminarusuario.Show();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Menu_Usuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

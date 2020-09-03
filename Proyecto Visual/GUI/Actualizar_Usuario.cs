@@ -50,6 +50,11 @@ namespace ProyectoFinal
 
         }
 
+        private void txb_direccion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btn_actualizarusuario_Click(object sender, EventArgs e)
         {
             if ((!string.IsNullOrEmpty(txb_apellidos.Text)) && (!string.IsNullOrEmpty(txb_contraseña.Text))

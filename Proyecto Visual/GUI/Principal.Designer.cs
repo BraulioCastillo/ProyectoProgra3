@@ -47,14 +47,16 @@
             this.btnusuarios = new System.Windows.Forms.Button();
             this.lbl_apellidos = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(67, 31);
+            this.label1.Location = new System.Drawing.Point(39, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 25);
             this.label1.TabIndex = 0;
@@ -65,7 +67,7 @@
             // 
             this.lblnombre.AutoSize = true;
             this.lblnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnombre.Location = new System.Drawing.Point(173, 31);
+            this.lblnombre.Location = new System.Drawing.Point(145, 52);
             this.lblnombre.Name = "lblnombre";
             this.lblnombre.Size = new System.Drawing.Size(93, 25);
             this.lblnombre.TabIndex = 2;
@@ -76,7 +78,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(98, 114);
+            this.label2.Location = new System.Drawing.Point(79, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 25);
             this.label2.TabIndex = 3;
@@ -87,7 +89,7 @@
             // 
             this.lblCargo.AutoSize = true;
             this.lblCargo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCargo.Location = new System.Drawing.Point(173, 114);
+            this.lblCargo.Location = new System.Drawing.Point(145, 125);
             this.lblCargo.Name = "lblCargo";
             this.lblCargo.Size = new System.Drawing.Size(33, 25);
             this.lblCargo.TabIndex = 4;
@@ -98,7 +100,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(98, 165);
+            this.label3.Location = new System.Drawing.Point(70, 160);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 25);
             this.label3.TabIndex = 5;
@@ -108,7 +110,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(83, 209);
+            this.label4.Location = new System.Drawing.Point(55, 195);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 25);
             this.label4.TabIndex = 6;
@@ -118,7 +120,7 @@
             // 
             this.lblhora.AutoSize = true;
             this.lblhora.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblhora.Location = new System.Drawing.Point(173, 165);
+            this.lblhora.Location = new System.Drawing.Point(145, 160);
             this.lblhora.Name = "lblhora";
             this.lblhora.Size = new System.Drawing.Size(33, 25);
             this.lblhora.TabIndex = 7;
@@ -128,7 +130,7 @@
             // 
             this.lblfecha.AutoSize = true;
             this.lblfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfecha.Location = new System.Drawing.Point(173, 209);
+            this.lblfecha.Location = new System.Drawing.Point(145, 195);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(33, 25);
             this.lblfecha.TabIndex = 8;
@@ -140,18 +142,22 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(484, 12);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(645, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(304, 178);
+            this.pictureBox1.Size = new System.Drawing.Size(210, 208);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
             // btnsede
             // 
             this.btnsede.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnsede.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnsede.BackgroundImage")));
+            this.btnsede.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnsede.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsede.Location = new System.Drawing.Point(291, 303);
+            this.btnsede.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnsede.Location = new System.Drawing.Point(311, 19);
             this.btnsede.Name = "btnsede";
             this.btnsede.Size = new System.Drawing.Size(213, 62);
             this.btnsede.TabIndex = 14;
@@ -161,9 +167,12 @@
             // 
             // btnventas
             // 
-            this.btnventas.BackColor = System.Drawing.Color.Lime;
+            this.btnventas.BackColor = System.Drawing.Color.Transparent;
+            this.btnventas.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnventas.BackgroundImage")));
+            this.btnventas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnventas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnventas.Location = new System.Drawing.Point(12, 303);
+            this.btnventas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnventas.Location = new System.Drawing.Point(32, 19);
             this.btnventas.Name = "btnventas";
             this.btnventas.Size = new System.Drawing.Size(127, 62);
             this.btnventas.TabIndex = 15;
@@ -174,8 +183,11 @@
             // btncompras
             // 
             this.btncompras.BackColor = System.Drawing.Color.Yellow;
+            this.btncompras.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btncompras.BackgroundImage")));
+            this.btncompras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncompras.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncompras.Location = new System.Drawing.Point(145, 303);
+            this.btncompras.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncompras.Location = new System.Drawing.Point(165, 19);
             this.btncompras.Name = "btncompras";
             this.btncompras.Size = new System.Drawing.Size(140, 62);
             this.btncompras.TabIndex = 16;
@@ -186,8 +198,11 @@
             // btnbodega
             // 
             this.btnbodega.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.btnbodega.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnbodega.BackgroundImage")));
+            this.btnbodega.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnbodega.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbodega.Location = new System.Drawing.Point(510, 303);
+            this.btnbodega.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnbodega.Location = new System.Drawing.Point(530, 19);
             this.btnbodega.Name = "btnbodega";
             this.btnbodega.Size = new System.Drawing.Size(131, 62);
             this.btnbodega.TabIndex = 17;
@@ -198,8 +213,11 @@
             // btnusuarios
             // 
             this.btnusuarios.BackColor = System.Drawing.Color.MediumOrchid;
+            this.btnusuarios.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnusuarios.BackgroundImage")));
+            this.btnusuarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnusuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnusuarios.Location = new System.Drawing.Point(647, 303);
+            this.btnusuarios.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnusuarios.Location = new System.Drawing.Point(667, 19);
             this.btnusuarios.Name = "btnusuarios";
             this.btnusuarios.Size = new System.Drawing.Size(145, 62);
             this.btnusuarios.TabIndex = 18;
@@ -211,7 +229,7 @@
             // 
             this.lbl_apellidos.AutoSize = true;
             this.lbl_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_apellidos.Location = new System.Drawing.Point(173, 68);
+            this.lbl_apellidos.Location = new System.Drawing.Point(145, 89);
             this.lbl_apellidos.Name = "lbl_apellidos";
             this.lbl_apellidos.Size = new System.Drawing.Size(109, 25);
             this.lbl_apellidos.TabIndex = 20;
@@ -221,24 +239,36 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(51, 68);
+            this.label6.Location = new System.Drawing.Point(23, 89);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(116, 25);
             this.label6.TabIndex = 19;
             this.label6.Text = "Apellidos:";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupBox1.Controls.Add(this.btnventas);
+            this.groupBox1.Controls.Add(this.btncompras);
+            this.groupBox1.Controls.Add(this.btnsede);
+            this.groupBox1.Controls.Add(this.btnusuarios);
+            this.groupBox1.Controls.Add(this.btnbodega);
+            this.groupBox1.Location = new System.Drawing.Point(12, 277);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(843, 100);
+            this.groupBox1.TabIndex = 21;
+            this.groupBox1.TabStop = false;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 389);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(867, 409);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lbl_apellidos);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.btnusuarios);
-            this.Controls.Add(this.btnbodega);
-            this.Controls.Add(this.btncompras);
-            this.Controls.Add(this.btnventas);
-            this.Controls.Add(this.btnsede);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblfecha);
             this.Controls.Add(this.lblhora);
@@ -254,6 +284,7 @@
             this.Text = "Menú Principal";
             this.Load += new System.EventHandler(this.Principal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,5 +309,6 @@
         private System.Windows.Forms.Button btnusuarios;
         private System.Windows.Forms.Label lbl_apellidos;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

@@ -18,7 +18,7 @@ namespace ProyectoFinal
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
+        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
         conex_sede conex_Sede;
         public Actualizar_Sede()
         {
@@ -73,6 +73,16 @@ namespace ProyectoFinal
             {
                 MessageBox.Show("No se ha podido actualizar la sede, por favor intente nuevamente");
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

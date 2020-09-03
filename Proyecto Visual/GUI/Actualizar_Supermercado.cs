@@ -10,7 +10,7 @@ namespace ProyectoFinal
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
+        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
         conex_super conex_Super;
         public Actualizar_Supermercado()
         {
@@ -68,6 +68,16 @@ namespace ProyectoFinal
             {
                 MessageBox.Show("Hubo un problema al actualizar, por favor intente nuevamente");
             }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

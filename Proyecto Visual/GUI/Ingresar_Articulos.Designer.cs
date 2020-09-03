@@ -50,6 +50,8 @@
             // 
             // gbx_insertarProducto
             // 
+            this.gbx_insertarProducto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gbx_insertarProducto.BackgroundImage")));
+            this.gbx_insertarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gbx_insertarProducto.Controls.Add(this.btn_cargar_img);
             this.gbx_insertarProducto.Controls.Add(this.pb_imagen);
             this.gbx_insertarProducto.Controls.Add(this.btn_ingresar);
@@ -62,11 +64,11 @@
             this.gbx_insertarProducto.Controls.Add(this.label2);
             this.gbx_insertarProducto.Controls.Add(this.label1);
             this.gbx_insertarProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbx_insertarProducto.Location = new System.Drawing.Point(13, 89);
-            this.gbx_insertarProducto.Margin = new System.Windows.Forms.Padding(4);
+            this.gbx_insertarProducto.Location = new System.Drawing.Point(15, 89);
+            this.gbx_insertarProducto.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.gbx_insertarProducto.Name = "gbx_insertarProducto";
-            this.gbx_insertarProducto.Padding = new System.Windows.Forms.Padding(4);
-            this.gbx_insertarProducto.Size = new System.Drawing.Size(740, 454);
+            this.gbx_insertarProducto.Padding = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.gbx_insertarProducto.Size = new System.Drawing.Size(863, 454);
             this.gbx_insertarProducto.TabIndex = 2;
             this.gbx_insertarProducto.TabStop = false;
             // 
@@ -76,9 +78,9 @@
             this.btn_cargar_img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_cargar_img.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cargar_img.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cargar_img.Location = new System.Drawing.Point(47, 242);
+            this.btn_cargar_img.Location = new System.Drawing.Point(51, 242);
             this.btn_cargar_img.Name = "btn_cargar_img";
-            this.btn_cargar_img.Size = new System.Drawing.Size(104, 57);
+            this.btn_cargar_img.Size = new System.Drawing.Size(125, 57);
             this.btn_cargar_img.TabIndex = 10;
             this.btn_cargar_img.Text = "Cargar Imagen";
             this.btn_cargar_img.UseVisualStyleBackColor = true;
@@ -86,9 +88,9 @@
             // 
             // pb_imagen
             // 
-            this.pb_imagen.Location = new System.Drawing.Point(157, 242);
+            this.pb_imagen.Location = new System.Drawing.Point(183, 242);
             this.pb_imagen.Name = "pb_imagen";
-            this.pb_imagen.Size = new System.Drawing.Size(551, 133);
+            this.pb_imagen.Size = new System.Drawing.Size(643, 133);
             this.pb_imagen.TabIndex = 9;
             this.pb_imagen.TabStop = false;
             // 
@@ -98,53 +100,53 @@
             this.btn_ingresar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ingresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ingresar.Location = new System.Drawing.Point(272, 401);
-            this.btn_ingresar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_ingresar.Location = new System.Drawing.Point(317, 401);
+            this.btn_ingresar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btn_ingresar.Name = "btn_ingresar";
-            this.btn_ingresar.Size = new System.Drawing.Size(312, 45);
+            this.btn_ingresar.Size = new System.Drawing.Size(364, 45);
             this.btn_ingresar.TabIndex = 8;
-            this.btn_ingresar.Text = "Ingresar Articulo";
+            this.btn_ingresar.Text = "Ingresar Artículo";
             this.btn_ingresar.UseVisualStyleBackColor = true;
             this.btn_ingresar.Click += new System.EventHandler(this.btn_ingresar_Click);
             // 
             // txb_stock_insertar
             // 
-            this.txb_stock_insertar.Location = new System.Drawing.Point(157, 104);
-            this.txb_stock_insertar.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_stock_insertar.Location = new System.Drawing.Point(183, 104);
+            this.txb_stock_insertar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txb_stock_insertar.Name = "txb_stock_insertar";
-            this.txb_stock_insertar.Size = new System.Drawing.Size(148, 22);
+            this.txb_stock_insertar.Size = new System.Drawing.Size(172, 22);
             this.txb_stock_insertar.TabIndex = 7;
             // 
             // txb_precio_insertar
             // 
-            this.txb_precio_insertar.Location = new System.Drawing.Point(157, 73);
-            this.txb_precio_insertar.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_precio_insertar.Location = new System.Drawing.Point(183, 73);
+            this.txb_precio_insertar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txb_precio_insertar.Name = "txb_precio_insertar";
-            this.txb_precio_insertar.Size = new System.Drawing.Size(148, 22);
+            this.txb_precio_insertar.Size = new System.Drawing.Size(172, 22);
             this.txb_precio_insertar.TabIndex = 6;
             // 
             // txb_detalles_insertar
             // 
-            this.txb_detalles_insertar.Location = new System.Drawing.Point(157, 147);
-            this.txb_detalles_insertar.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_detalles_insertar.Location = new System.Drawing.Point(183, 147);
+            this.txb_detalles_insertar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txb_detalles_insertar.Multiline = true;
             this.txb_detalles_insertar.Name = "txb_detalles_insertar";
-            this.txb_detalles_insertar.Size = new System.Drawing.Size(551, 85);
+            this.txb_detalles_insertar.Size = new System.Drawing.Size(642, 85);
             this.txb_detalles_insertar.TabIndex = 5;
             // 
             // txb_ID_insertar
             // 
-            this.txb_ID_insertar.Location = new System.Drawing.Point(157, 40);
-            this.txb_ID_insertar.Margin = new System.Windows.Forms.Padding(4);
+            this.txb_ID_insertar.Location = new System.Drawing.Point(183, 40);
+            this.txb_ID_insertar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txb_ID_insertar.Name = "txb_ID_insertar";
-            this.txb_ID_insertar.Size = new System.Drawing.Size(148, 22);
+            this.txb_ID_insertar.Size = new System.Drawing.Size(172, 22);
             this.txb_ID_insertar.TabIndex = 4;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(92, 104);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(120, 110);
+            this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 16);
             this.label4.TabIndex = 3;
@@ -153,8 +155,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(86, 73);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(120, 79);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 16);
             this.label3.TabIndex = 2;
@@ -163,8 +165,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 150);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(109, 150);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 16);
             this.label2.TabIndex = 1;
@@ -173,8 +175,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(60, 40);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(94, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 16);
             this.label1.TabIndex = 0;
@@ -184,10 +186,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Wide Latin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(96, 9);
+            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(251, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(587, 33);
+            this.label5.Size = new System.Drawing.Size(413, 38);
             this.label5.TabIndex = 20;
             this.label5.Text = "Insertar Nuevo Producto";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -196,11 +199,11 @@
             // 
             this.btncancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btncancelar.BackgroundImage")));
             this.btncancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancelar.ForeColor = System.Drawing.Color.White;
-            this.btncancelar.Location = new System.Drawing.Point(664, 585);
+            this.btncancelar.Location = new System.Drawing.Point(763, 574);
             this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(100, 40);
+            this.btncancelar.Size = new System.Drawing.Size(117, 40);
             this.btncancelar.TabIndex = 21;
             this.btncancelar.Text = "Salir";
             this.btncancelar.UseVisualStyleBackColor = true;
@@ -212,12 +215,15 @@
             // 
             // Ingresar_Articulos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(766, 626);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(889, 620);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.gbx_insertarProducto);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ingresar_Articulos";
             this.Text = "Ingresar Articulos";
             this.Load += new System.EventHandler(this.Ingresar_Articulos_Load);
