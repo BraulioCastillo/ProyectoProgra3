@@ -45,6 +45,7 @@
             this.cmb_eliminiarusuario.Name = "cmb_eliminiarusuario";
             this.cmb_eliminiarusuario.Size = new System.Drawing.Size(121, 21);
             this.cmb_eliminiarusuario.TabIndex = 0;
+            this.cmb_eliminiarusuario.SelectedIndexChanged += new System.EventHandler(this.cmb_eliminiarusuario_SelectedIndexChanged);
             // 
             // label9
             // 
@@ -77,12 +78,13 @@
             this.btn_actualizarusuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_actualizarusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_actualizarusuario.ForeColor = System.Drawing.Color.White;
-            this.btn_actualizarusuario.Location = new System.Drawing.Point(147, 187);
+            this.btn_actualizarusuario.Location = new System.Drawing.Point(147, 193);
             this.btn_actualizarusuario.Name = "btn_actualizarusuario";
             this.btn_actualizarusuario.Size = new System.Drawing.Size(174, 40);
             this.btn_actualizarusuario.TabIndex = 22;
             this.btn_actualizarusuario.Text = "Eliminar Usuario";
             this.btn_actualizarusuario.UseVisualStyleBackColor = true;
+            this.btn_actualizarusuario.Click += new System.EventHandler(this.btn_actualizarusuario_Click);
             // 
             // label1
             // 
@@ -117,6 +119,7 @@
             this.Controls.Add(this.label9);
             this.Name = "Eliminar_Usuario";
             this.Text = "Eliminar_Usuario";
+            this.Load += new System.EventHandler(this.Eliminar_Usuario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -29,42 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consultar_Usuario));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cmb_consultarusuario = new System.Windows.Forms.ComboBox();
             this.btn_salir = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.btn_consultararusuario = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.dgv_productos = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_productos)).BeginInit();
             this.SuspendLayout();
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.cmb_consultarusuario);
-            this.groupBox1.Location = new System.Drawing.Point(106, 83);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(259, 100);
-            this.groupBox1.TabIndex = 25;
-            this.groupBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(44, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 13);
-            this.label1.TabIndex = 23;
-            this.label1.Text = "ID:";
-            // 
-            // cmb_consultarusuario
-            // 
-            this.cmb_consultarusuario.FormattingEnabled = true;
-            this.cmb_consultarusuario.Location = new System.Drawing.Point(74, 35);
-            this.cmb_consultarusuario.Name = "cmb_consultarusuario";
-            this.cmb_consultarusuario.Size = new System.Drawing.Size(121, 21);
-            this.cmb_consultarusuario.TabIndex = 0;
             // 
             // btn_salir
             // 
@@ -72,7 +42,7 @@
             this.btn_salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_salir.ForeColor = System.Drawing.Color.White;
-            this.btn_salir.Location = new System.Drawing.Point(391, 252);
+            this.btn_salir.Location = new System.Drawing.Point(192, 214);
             this.btn_salir.Name = "btn_salir";
             this.btn_salir.Size = new System.Drawing.Size(100, 40);
             this.btn_salir.TabIndex = 26;
@@ -97,39 +67,46 @@
             this.btn_consultararusuario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_consultararusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_consultararusuario.ForeColor = System.Drawing.Color.White;
-            this.btn_consultararusuario.Location = new System.Drawing.Point(153, 205);
+            this.btn_consultararusuario.Location = new System.Drawing.Point(160, 168);
             this.btn_consultararusuario.Name = "btn_consultararusuario";
             this.btn_consultararusuario.Size = new System.Drawing.Size(174, 40);
             this.btn_consultararusuario.TabIndex = 28;
             this.btn_consultararusuario.Text = "Consultar Usuario";
             this.btn_consultararusuario.UseVisualStyleBackColor = true;
+            this.btn_consultararusuario.Click += new System.EventHandler(this.btn_consultararusuario_Click);
+            // 
+            // dgv_productos
+            // 
+            this.dgv_productos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_productos.Location = new System.Drawing.Point(13, 56);
+            this.dgv_productos.Margin = new System.Windows.Forms.Padding(4);
+            this.dgv_productos.Name = "dgv_productos";
+            this.dgv_productos.Size = new System.Drawing.Size(493, 105);
+            this.dgv_productos.TabIndex = 29;
             // 
             // Consultar_Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(490, 291);
+            this.ClientSize = new System.Drawing.Size(535, 266);
+            this.Controls.Add(this.dgv_productos);
             this.Controls.Add(this.btn_consultararusuario);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btn_salir);
-            this.Controls.Add(this.groupBox1);
             this.Name = "Consultar_Usuario";
             this.Text = "Consultar_Usuario";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Load += new System.EventHandler(this.Consultar_Usuario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_productos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmb_consultarusuario;
         private System.Windows.Forms.Button btn_salir;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btn_consultararusuario;
+        private System.Windows.Forms.DataGridView dgv_productos;
     }
 }

@@ -268,6 +268,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registro_Usuarios";
             this.Text = "Registro Usuarios";
+            this.Load += new System.EventHandler(this.Registro_Usuarios_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

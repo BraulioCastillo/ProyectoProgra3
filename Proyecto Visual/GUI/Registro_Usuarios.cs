@@ -14,7 +14,7 @@ namespace ProyectoFinal
 {
     public partial class Registro_Usuarios : Form
     {
-        D_Users conexion = new D_Users("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
+        D_Users conexion = new D_Users("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
         public Registro_Usuarios()
         {
             InitializeComponent();
@@ -62,6 +62,11 @@ namespace ProyectoFinal
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Registro_Usuarios_Load(object sender, EventArgs e)
         {
 
         }

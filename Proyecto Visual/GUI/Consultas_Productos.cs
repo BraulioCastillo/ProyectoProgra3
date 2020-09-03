@@ -15,9 +15,25 @@ namespace ProyectoFinal
 {
     public partial class Consultas_Productos : Form
     {
+        public SqlCommand cmd, command;
+        public SqlConnection cnx;
+        SqlDataReader dataReader;
+        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
         public Consultas_Productos()
         {
             InitializeComponent();
+            cnx = new SqlConnection(conection);
+            cnx.Open();
+            cmd = new SqlCommand("select * from Articulo", cnx);
+            cmd.ExecuteNonQuery();
+            dataReader = cmd.ExecuteReader();
+            while (dataReader.Read())
+            {
+                cmb_consultaId.Items.Add(dataReader["codigo"].ToString());
+                cmb_consultaId2.Items.Add(dataReader["codigo"].ToString());
+
+            }
+            dataReader.Close();
         }
 
         private void btncancelar_Click(object sender, EventArgs e)
@@ -32,15 +48,15 @@ namespace ProyectoFinal
             SqlDataAdapter da;
             DataRow dr;
 
-            string cadSql = "select codigo from Articulo where codigo = '" + int.Parse(txb_consulta_id.Text) + "'";
+            string cadSql = "select codigo from Articulo where codigo = '" + int.Parse(cmb_consultaId.Text) + "'";
             SqlCommand comando = new SqlCommand(cadSql, conexion.conecta());
             conexion.con.Open();
 
             SqlDataReader leer = comando.ExecuteReader();
             if (leer.Read() == true)
             {
-                txb_consulta_id.Text = leer["codigo"].ToString();
-                da = new SqlDataAdapter("Select imagen from Articulo where codigo = '" + int.Parse(txb_consulta_id.Text) + "'", conexion.conexion);
+                cmb_consultaId.Text = leer["codigo"].ToString();
+                da = new SqlDataAdapter("Select imagen from Articulo where codigo = '" + int.Parse(cmb_consultaId.Text) + "'", conexion.conexion);
                 ds = new DataSet();
                 da.Fill(ds, "Articulo");
                 byte[] datos = new byte[0];
@@ -49,7 +65,7 @@ namespace ProyectoFinal
                 System.IO.MemoryStream ms = new System.IO.MemoryStream(datos);
                 pictureBox1.Image = System.Drawing.Bitmap.FromStream(ms);
 
-                ds = conexion.Consultar(int.Parse(txb_consulta_id.Text));
+                ds = conexion.Consultar(int.Parse(cmb_consultaId.Text));
                 dgv_productos.DataSource = ds.Tables[0];
                 conexion.con.Close();
             }
@@ -57,11 +73,11 @@ namespace ProyectoFinal
 
         private void btn_eliminar_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txb_codigo_eliminar.Text))
+            if (!string.IsNullOrEmpty(cmb_consultaId2.Text))
             {
                 conex_art conexion = new conex_art("");  //WARNING STRING DE CONEXION
 
-                int codigo = int.Parse(txb_codigo_eliminar.Text);
+                int codigo = int.Parse(cmb_consultaId2.Text);
 
                 bool deleted = conexion.delete_articulo(codigo);
                 if (deleted)

@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consultas_Productos));
             this.btn_regresar_productos = new System.Windows.Forms.Button();
             this.gbx_consultar = new System.Windows.Forms.GroupBox();
-            this.txb_consulta_id = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dgv_productos = new System.Windows.Forms.DataGridView();
             this.btn_consultar = new System.Windows.Forms.Button();
@@ -39,8 +38,9 @@
             this.btncancelar = new System.Windows.Forms.Button();
             this.gbx_eliminar = new System.Windows.Forms.GroupBox();
             this.btn_eliminar = new System.Windows.Forms.Button();
-            this.txb_codigo_eliminar = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.cmb_consultaId = new System.Windows.Forms.ComboBox();
+            this.cmb_consultaId2 = new System.Windows.Forms.ComboBox();
             this.gbx_consultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_productos)).BeginInit();
@@ -62,7 +62,7 @@
             // 
             // gbx_consultar
             // 
-            this.gbx_consultar.Controls.Add(this.txb_consulta_id);
+            this.gbx_consultar.Controls.Add(this.cmb_consultaId);
             this.gbx_consultar.Controls.Add(this.pictureBox1);
             this.gbx_consultar.Controls.Add(this.dgv_productos);
             this.gbx_consultar.Controls.Add(this.btn_consultar);
@@ -74,14 +74,6 @@
             this.gbx_consultar.TabIndex = 8;
             this.gbx_consultar.TabStop = false;
             this.gbx_consultar.Text = "Consultar Productos";
-            // 
-            // txb_consulta_id
-            // 
-            this.txb_consulta_id.Location = new System.Drawing.Point(8, 84);
-            this.txb_consulta_id.Margin = new System.Windows.Forms.Padding(4);
-            this.txb_consulta_id.Name = "txb_consulta_id";
-            this.txb_consulta_id.Size = new System.Drawing.Size(124, 20);
-            this.txb_consulta_id.TabIndex = 9;
             // 
             // pictureBox1
             // 
@@ -138,8 +130,8 @@
             // 
             // gbx_eliminar
             // 
+            this.gbx_eliminar.Controls.Add(this.cmb_consultaId2);
             this.gbx_eliminar.Controls.Add(this.btn_eliminar);
-            this.gbx_eliminar.Controls.Add(this.txb_codigo_eliminar);
             this.gbx_eliminar.Controls.Add(this.label6);
             this.gbx_eliminar.Location = new System.Drawing.Point(49, 217);
             this.gbx_eliminar.Margin = new System.Windows.Forms.Padding(4);
@@ -161,14 +153,6 @@
             this.btn_eliminar.UseVisualStyleBackColor = true;
             this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
-            // txb_codigo_eliminar
-            // 
-            this.txb_codigo_eliminar.Location = new System.Drawing.Point(38, 60);
-            this.txb_codigo_eliminar.Margin = new System.Windows.Forms.Padding(4);
-            this.txb_codigo_eliminar.Name = "txb_codigo_eliminar";
-            this.txb_codigo_eliminar.Size = new System.Drawing.Size(206, 20);
-            this.txb_codigo_eliminar.TabIndex = 7;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -179,11 +163,27 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "Digite el Código de Producto";
             // 
+            // cmb_consultaId
+            // 
+            this.cmb_consultaId.FormattingEnabled = true;
+            this.cmb_consultaId.Location = new System.Drawing.Point(11, 73);
+            this.cmb_consultaId.Name = "cmb_consultaId";
+            this.cmb_consultaId.Size = new System.Drawing.Size(121, 21);
+            this.cmb_consultaId.TabIndex = 12;
+            // 
+            // cmb_consultaId2
+            // 
+            this.cmb_consultaId2.FormattingEnabled = true;
+            this.cmb_consultaId2.Location = new System.Drawing.Point(36, 51);
+            this.cmb_consultaId2.Name = "cmb_consultaId2";
+            this.cmb_consultaId2.Size = new System.Drawing.Size(139, 21);
+            this.cmb_consultaId2.TabIndex = 13;
+            // 
             // Consultas_Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(831, 628);
+            this.ClientSize = new System.Drawing.Size(805, 369);
             this.Controls.Add(this.gbx_eliminar);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.label1);
@@ -193,7 +193,6 @@
             this.Text = "Consultas Productos";
             this.Load += new System.EventHandler(this.Consultas_Productos_Load);
             this.gbx_consultar.ResumeLayout(false);
-            this.gbx_consultar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_productos)).EndInit();
             this.gbx_eliminar.ResumeLayout(false);
@@ -207,7 +206,6 @@
 
         private System.Windows.Forms.Button btn_regresar_productos;
         private System.Windows.Forms.GroupBox gbx_consultar;
-        private System.Windows.Forms.TextBox txb_consulta_id;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dgv_productos;
         private System.Windows.Forms.Button btn_consultar;
@@ -215,7 +213,8 @@
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.GroupBox gbx_eliminar;
         private System.Windows.Forms.Button btn_eliminar;
-        private System.Windows.Forms.TextBox txb_codigo_eliminar;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox cmb_consultaId;
+        private System.Windows.Forms.ComboBox cmb_consultaId2;
     }
 }

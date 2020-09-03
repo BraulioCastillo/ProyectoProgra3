@@ -91,6 +91,10 @@ namespace WindowsFormsApp1
 
         private void btnusuarios_Click(object sender, EventArgs e)
         {
+            Menu_Usuario menu = new Menu_Usuario();
+            Login1 login = new Login1();
+            menu.Show();
+            login.Hide();
 
         }
 

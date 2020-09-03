@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Actualizar_Usuario));
             this.label9 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gbx_actualizar = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txb_rol = new System.Windows.Forms.TextBox();
             this.txb_direccion = new System.Windows.Forms.TextBox();
@@ -46,10 +46,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txb_contraseña = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txb_idcliente = new System.Windows.Forms.TextBox();
             this.btn_actualizarusuario = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.cmb_id_Actualizar = new System.Windows.Forms.ComboBox();
+            this.gbx_actualizar.SuspendLayout();
             this.SuspendLayout();
             // 
             // label9
@@ -63,36 +63,34 @@
             this.label9.TabIndex = 19;
             this.label9.Text = "Actualizar Usuario";
             // 
-            // groupBox1
+            // gbx_actualizar
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.txb_rol);
-            this.groupBox1.Controls.Add(this.txb_direccion);
-            this.groupBox1.Controls.Add(this.txb_email);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txb_telefono);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.txb_apellidos);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txb_nombre);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txb_contraseña);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txb_idcliente);
-            this.groupBox1.Location = new System.Drawing.Point(114, 59);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(271, 246);
-            this.groupBox1.TabIndex = 18;
-            this.groupBox1.TabStop = false;
+            this.gbx_actualizar.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.gbx_actualizar.Controls.Add(this.label8);
+            this.gbx_actualizar.Controls.Add(this.txb_rol);
+            this.gbx_actualizar.Controls.Add(this.txb_direccion);
+            this.gbx_actualizar.Controls.Add(this.txb_email);
+            this.gbx_actualizar.Controls.Add(this.label7);
+            this.gbx_actualizar.Controls.Add(this.label6);
+            this.gbx_actualizar.Controls.Add(this.txb_telefono);
+            this.gbx_actualizar.Controls.Add(this.label2);
+            this.gbx_actualizar.Controls.Add(this.txb_apellidos);
+            this.gbx_actualizar.Controls.Add(this.label3);
+            this.gbx_actualizar.Controls.Add(this.txb_nombre);
+            this.gbx_actualizar.Controls.Add(this.label4);
+            this.gbx_actualizar.Controls.Add(this.txb_contraseña);
+            this.gbx_actualizar.Controls.Add(this.label5);
+            this.gbx_actualizar.Location = new System.Drawing.Point(114, 94);
+            this.gbx_actualizar.Name = "gbx_actualizar";
+            this.gbx_actualizar.Size = new System.Drawing.Size(271, 210);
+            this.gbx_actualizar.TabIndex = 18;
+            this.gbx_actualizar.TabStop = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(67, 210);
+            this.label8.Location = new System.Drawing.Point(69, 184);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(30, 13);
             this.label8.TabIndex = 19;
@@ -100,21 +98,21 @@
             // 
             // txb_rol
             // 
-            this.txb_rol.Location = new System.Drawing.Point(100, 203);
+            this.txb_rol.Location = new System.Drawing.Point(102, 177);
             this.txb_rol.Name = "txb_rol";
             this.txb_rol.Size = new System.Drawing.Size(142, 20);
             this.txb_rol.TabIndex = 18;
             // 
             // txb_direccion
             // 
-            this.txb_direccion.Location = new System.Drawing.Point(100, 177);
+            this.txb_direccion.Location = new System.Drawing.Point(102, 151);
             this.txb_direccion.Name = "txb_direccion";
             this.txb_direccion.Size = new System.Drawing.Size(142, 20);
             this.txb_direccion.TabIndex = 17;
             // 
             // txb_email
             // 
-            this.txb_email.Location = new System.Drawing.Point(100, 150);
+            this.txb_email.Location = new System.Drawing.Point(102, 124);
             this.txb_email.Name = "txb_email";
             this.txb_email.Size = new System.Drawing.Size(142, 20);
             this.txb_email.TabIndex = 16;
@@ -123,7 +121,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(32, 184);
+            this.label7.Location = new System.Drawing.Point(34, 158);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(65, 13);
             this.label7.TabIndex = 15;
@@ -133,7 +131,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(56, 157);
+            this.label6.Location = new System.Drawing.Point(58, 131);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(41, 13);
             this.label6.TabIndex = 14;
@@ -143,7 +141,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(73, 26);
+            this.label1.Location = new System.Drawing.Point(189, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(24, 13);
             this.label1.TabIndex = 0;
@@ -151,7 +149,7 @@
             // 
             // txb_telefono
             // 
-            this.txb_telefono.Location = new System.Drawing.Point(100, 124);
+            this.txb_telefono.Location = new System.Drawing.Point(102, 98);
             this.txb_telefono.Name = "txb_telefono";
             this.txb_telefono.Size = new System.Drawing.Size(142, 20);
             this.txb_telefono.TabIndex = 13;
@@ -160,7 +158,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 52);
+            this.label2.Location = new System.Drawing.Point(24, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 1;
@@ -168,7 +166,7 @@
             // 
             // txb_apellidos
             // 
-            this.txb_apellidos.Location = new System.Drawing.Point(100, 98);
+            this.txb_apellidos.Location = new System.Drawing.Point(102, 72);
             this.txb_apellidos.Name = "txb_apellidos";
             this.txb_apellidos.Size = new System.Drawing.Size(142, 20);
             this.txb_apellidos.TabIndex = 12;
@@ -177,7 +175,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(43, 79);
+            this.label3.Location = new System.Drawing.Point(45, 53);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 13);
             this.label3.TabIndex = 2;
@@ -185,7 +183,7 @@
             // 
             // txb_nombre
             // 
-            this.txb_nombre.Location = new System.Drawing.Point(100, 72);
+            this.txb_nombre.Location = new System.Drawing.Point(102, 46);
             this.txb_nombre.Name = "txb_nombre";
             this.txb_nombre.Size = new System.Drawing.Size(142, 20);
             this.txb_nombre.TabIndex = 11;
@@ -194,7 +192,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(35, 105);
+            this.label4.Location = new System.Drawing.Point(37, 79);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 13);
             this.label4.TabIndex = 3;
@@ -202,7 +200,7 @@
             // 
             // txb_contraseña
             // 
-            this.txb_contraseña.Location = new System.Drawing.Point(100, 45);
+            this.txb_contraseña.Location = new System.Drawing.Point(102, 19);
             this.txb_contraseña.Name = "txb_contraseña";
             this.txb_contraseña.Size = new System.Drawing.Size(142, 20);
             this.txb_contraseña.TabIndex = 10;
@@ -211,18 +209,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(36, 131);
+            this.label5.Location = new System.Drawing.Point(38, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Teléfono:";
-            // 
-            // txb_idcliente
-            // 
-            this.txb_idcliente.Location = new System.Drawing.Point(100, 19);
-            this.txb_idcliente.Name = "txb_idcliente";
-            this.txb_idcliente.Size = new System.Drawing.Size(142, 20);
-            this.txb_idcliente.TabIndex = 9;
             // 
             // btn_actualizarusuario
             // 
@@ -236,6 +227,7 @@
             this.btn_actualizarusuario.TabIndex = 17;
             this.btn_actualizarusuario.Text = "Actualizar Usuario";
             this.btn_actualizarusuario.UseVisualStyleBackColor = true;
+            this.btn_actualizarusuario.Click += new System.EventHandler(this.btn_actualizarusuario_Click);
             // 
             // btn_salir
             // 
@@ -251,20 +243,32 @@
             this.btn_salir.UseVisualStyleBackColor = true;
             this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
+            // cmb_id_Actualizar
+            // 
+            this.cmb_id_Actualizar.FormattingEnabled = true;
+            this.cmb_id_Actualizar.Location = new System.Drawing.Point(219, 59);
+            this.cmb_id_Actualizar.Name = "cmb_id_Actualizar";
+            this.cmb_id_Actualizar.Size = new System.Drawing.Size(139, 21);
+            this.cmb_id_Actualizar.TabIndex = 20;
+            this.cmb_id_Actualizar.SelectedIndexChanged += new System.EventHandler(this.cmb_id_Actualizar_SelectedIndexChanged);
+            // 
             // Actualizar_Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(503, 399);
+            this.Controls.Add(this.cmb_id_Actualizar);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbx_actualizar);
             this.Controls.Add(this.btn_actualizarusuario);
             this.Controls.Add(this.btn_salir);
+            this.Controls.Add(this.label1);
             this.Name = "Actualizar_Usuario";
             this.Text = "Actualizar_Cliente";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Load += new System.EventHandler(this.Actualizar_Usuario_Load);
+            this.gbx_actualizar.ResumeLayout(false);
+            this.gbx_actualizar.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,7 +277,7 @@
         #endregion
 
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbx_actualizar;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txb_rol;
         private System.Windows.Forms.TextBox txb_direccion;
@@ -289,8 +293,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txb_contraseña;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txb_idcliente;
         private System.Windows.Forms.Button btn_actualizarusuario;
         private System.Windows.Forms.Button btn_salir;
+        private System.Windows.Forms.ComboBox cmb_id_Actualizar;
     }
 }

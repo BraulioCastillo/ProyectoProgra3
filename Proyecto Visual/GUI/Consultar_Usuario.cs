@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DATOS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,11 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ProyectoFinal
 {
     public partial class Consultar_Usuario : Form
     {
+       
         public Consultar_Usuario()
         {
             InitializeComponent();
@@ -20,6 +23,17 @@ namespace ProyectoFinal
         private void btn_salir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btn_consultararusuario_Click(object sender, EventArgs e)
+        {
+            D_Users usuariosNegocio = new D_Users();
+            dgv_productos.DataSource = usuariosNegocio.Get_Usuarios();
+        }
+
+        private void Consultar_Usuario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
