@@ -178,7 +178,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Consultar_detalle";
             this.Text = "Consultar_detalle";
-            this.Load += new System.EventHandler(this.Consultar_detalle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
