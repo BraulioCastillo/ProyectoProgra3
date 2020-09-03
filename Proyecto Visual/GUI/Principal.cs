@@ -87,6 +87,11 @@ namespace WindowsFormsApp1
         private void btncompras_Click(object sender, EventArgs e)
         {
 
+            Carrito_compras carrito = new Carrito_compras();
+            carrito.Show();
+            Login1 login = new Login1();
+            login.Close();
+
         }
 
         private void btnusuarios_Click(object sender, EventArgs e)

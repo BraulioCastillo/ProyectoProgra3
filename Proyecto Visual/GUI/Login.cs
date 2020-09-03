@@ -73,6 +73,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             p_logueo();
+            this.Hide();
         }
 
         private void btncancelar_Click(object sender, EventArgs e)
@@ -84,6 +85,7 @@ namespace WindowsFormsApp1
         {
             Registro_Usuarios frmusuarios = new Registro_Usuarios();
             frmusuarios.Show();
+            this.Hide();
         }
     }
 }

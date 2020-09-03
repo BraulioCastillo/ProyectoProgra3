@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consultas_Productos));
             this.btn_regresar_productos = new System.Windows.Forms.Button();
             this.gbx_consultar = new System.Windows.Forms.GroupBox();
+            this.cmb_consultaId = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dgv_productos = new System.Windows.Forms.DataGridView();
             this.btn_consultar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btncancelar = new System.Windows.Forms.Button();
             this.gbx_eliminar = new System.Windows.Forms.GroupBox();
+            this.cmb_consultaId2 = new System.Windows.Forms.ComboBox();
             this.btn_eliminar = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.cmb_consultaId = new System.Windows.Forms.ComboBox();
-            this.cmb_consultaId2 = new System.Windows.Forms.ComboBox();
             this.gbx_consultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_productos)).BeginInit();
@@ -66,7 +66,7 @@
             this.gbx_consultar.Controls.Add(this.pictureBox1);
             this.gbx_consultar.Controls.Add(this.dgv_productos);
             this.gbx_consultar.Controls.Add(this.btn_consultar);
-            this.gbx_consultar.Location = new System.Drawing.Point(49, 64);
+            this.gbx_consultar.Location = new System.Drawing.Point(49, 68);
             this.gbx_consultar.Margin = new System.Windows.Forms.Padding(4);
             this.gbx_consultar.Name = "gbx_consultar";
             this.gbx_consultar.Padding = new System.Windows.Forms.Padding(4);
@@ -74,6 +74,14 @@
             this.gbx_consultar.TabIndex = 8;
             this.gbx_consultar.TabStop = false;
             this.gbx_consultar.Text = "Consultar Productos";
+            // 
+            // cmb_consultaId
+            // 
+            this.cmb_consultaId.FormattingEnabled = true;
+            this.cmb_consultaId.Location = new System.Drawing.Point(11, 73);
+            this.cmb_consultaId.Name = "cmb_consultaId";
+            this.cmb_consultaId.Size = new System.Drawing.Size(121, 21);
+            this.cmb_consultaId.TabIndex = 12;
             // 
             // pictureBox1
             // 
@@ -142,6 +150,14 @@
             this.gbx_eliminar.TabStop = false;
             this.gbx_eliminar.Text = "Eliminar Producto";
             // 
+            // cmb_consultaId2
+            // 
+            this.cmb_consultaId2.FormattingEnabled = true;
+            this.cmb_consultaId2.Location = new System.Drawing.Point(36, 51);
+            this.cmb_consultaId2.Name = "cmb_consultaId2";
+            this.cmb_consultaId2.Size = new System.Drawing.Size(139, 21);
+            this.cmb_consultaId2.TabIndex = 13;
+            // 
             // btn_eliminar
             // 
             this.btn_eliminar.Location = new System.Drawing.Point(348, 44);
@@ -162,22 +178,6 @@
             this.label6.Size = new System.Drawing.Size(142, 13);
             this.label6.TabIndex = 6;
             this.label6.Text = "Digite el Código de Producto";
-            // 
-            // cmb_consultaId
-            // 
-            this.cmb_consultaId.FormattingEnabled = true;
-            this.cmb_consultaId.Location = new System.Drawing.Point(11, 73);
-            this.cmb_consultaId.Name = "cmb_consultaId";
-            this.cmb_consultaId.Size = new System.Drawing.Size(121, 21);
-            this.cmb_consultaId.TabIndex = 12;
-            // 
-            // cmb_consultaId2
-            // 
-            this.cmb_consultaId2.FormattingEnabled = true;
-            this.cmb_consultaId2.Location = new System.Drawing.Point(36, 51);
-            this.cmb_consultaId2.Name = "cmb_consultaId2";
-            this.cmb_consultaId2.Size = new System.Drawing.Size(139, 21);
-            this.cmb_consultaId2.TabIndex = 13;
             // 
             // Consultas_Productos
             // 

@@ -88,6 +88,12 @@
     <Compile Include="Bodega.Designer.cs">
       <DependentUpon>Bodega.cs</DependentUpon>
     </Compile>
+    <Compile Include="Carrito_compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carrito_compras.Designer.cs">
+      <DependentUpon>Carrito_compras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Compras.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bodega.resx">
       <DependentUpon>Bodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carrito_compras.resx">
+      <DependentUpon>Carrito_compras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>

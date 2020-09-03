@@ -203,3 +203,4 @@ C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNI
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 4 antes de morir\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.exe
 C:\Users\Yashin\Desktop\UAM 2020\PROGRA III\PROYECTO FINAL\PROYECTO FINAL V1\UNIDO 4 antes de morir\ProyectoProgra3-master\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.pdb
 C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Consultar_Sede.resources
+C:\Users\usuario\Documents\ProyectoProgra3\Proyecto Visual\GUI\obj\Debug\ProyectoFinal.Carrito_compras.resources
