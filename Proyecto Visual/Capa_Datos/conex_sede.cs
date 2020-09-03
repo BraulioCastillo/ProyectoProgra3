@@ -15,7 +15,7 @@ namespace Capa_Datos
         public SqlCommand cmd;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String de Conexion
+        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String de Conexion
 
         #region metodos
 
@@ -38,8 +38,8 @@ namespace Capa_Datos
             }
             catch (Exception)
             {
-
-                MessageBox.Show("Hubo un error al agregar la sede, por favor inténtelo nuevamente");
+                throw;
+                //MessageBox.Show("Hubo un error al agregar la sede, por favor inténtelo nuevamente");
             }
 
 
@@ -67,8 +67,8 @@ namespace Capa_Datos
             }
             catch (Exception)
             {
-
-                MessageBox.Show("Ha ocurrido un error, por favor inténtelo nuevamente");
+                throw;
+                //MessageBox.Show("Ha ocurrido un error, por favor inténtelo nuevamente");
             }
 
             return valida;
@@ -94,8 +94,8 @@ namespace Capa_Datos
             }
             catch (Exception)
             {
-
-                MessageBox.Show("Error al modificar la sede");
+                throw;
+                //MessageBox.Show("Error al modificar la sede");
             }
 
         }
@@ -120,8 +120,8 @@ namespace Capa_Datos
             }
             catch (Exception)
             {
-
-                MessageBox.Show("Hubo un problema al cargar los datos, por favor intente nuevamente");
+                throw;
+                //MessageBox.Show("Hubo un problema al cargar los datos, por favor intente nuevamente");
             }
             return sede;
         }

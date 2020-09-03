@@ -74,17 +74,5 @@ namespace ProyectoFinal
                 MessageBox.Show("No se ha podido actualizar la sede, por favor intente nuevamente");
             }
         }
-
-        private void btn_acutualizarsede_Click_1(object sender, EventArgs e)
-        {
-            try
-            {
-                conex_Sede.modificaSede(int.Parse(cmb_idSede.Text), txb_localidadsede.Text);
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("No se ha podido actualizar la sede, por favor intente nuevamente");
-            }
-        }
     }
 }

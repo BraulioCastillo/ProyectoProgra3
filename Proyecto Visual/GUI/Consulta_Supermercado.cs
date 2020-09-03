@@ -28,12 +28,13 @@ namespace ProyectoFinal
 
             cnx = new SqlConnection(conection);
             cnx.Open();
-            cmd = new SqlCommand("select s.ID, s.nombre, s.localidad, p.nombre, p.apellidos from Supermercado s join Persona p on s.ID_dueno = p.ID", cnx);
+            cmd = new SqlCommand("select s.ID, s.nombre, s.localidad, p.nombre as persona, p.apellidos from Supermercado s join Persona p on s.ID_dueno = p.ID", cnx);
             cmd.ExecuteNonQuery();
             dataReader = cmd.ExecuteReader();
             while (dataReader.Read())
             {
-                dataGridView1.Rows.Add(dataReader["ID"].ToString(), dataReader["nombre"].ToString(), dataReader["localidad"].ToString(), dataReader["nombre"].ToString() + " " + dataReader["apellidos"].ToString());
+                dataGridView1.Rows.Add(dataReader["ID"].ToString(), dataReader["nombre"].ToString(), dataReader["localidad"].ToString(), 
+                    dataReader["persona"].ToString() + " " + dataReader["apellidos"].ToString());
             }
             cnx.Close();
         }

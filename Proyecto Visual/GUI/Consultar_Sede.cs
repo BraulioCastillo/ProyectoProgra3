@@ -21,19 +21,21 @@ namespace ProyectoFinal
         {
             InitializeComponent();
             dataGridView1.Columns.Add("ID sede", "ID Sede");
-            dataGridView1.Columns.Add("", "ID Supermercado");
-            dataGridView1.Columns.Add("ID supermercado", "ID Supermercado");
-            dataGridView1.Columns.Add("ID supermercado", "ID Supermercado");
+            dataGridView1.Columns.Add("ubicación", "Ubicación");
+            dataGridView1.Columns.Add("supermercado", "Supermercado");
+            dataGridView1.Columns.Add("Encargado", "Encargado");
 
 
             cnx = new SqlConnection(conection);
             cnx.Open();
-            cmd = new SqlCommand("select * from Supermercado", cnx);
+            cmd = new SqlCommand("select s.Id, s.localidad, sm.nombre as super, p.nombre, p.apellidos " +
+                "from Sede s left join Persona p on p.ID = s.ID_encargado left join Supermercado sm on sm.ID = s.ID_encargado", cnx);
             cmd.ExecuteNonQuery();
             dataReader = cmd.ExecuteReader();
             while (dataReader.Read())
             {
-                cmb_idSupermercado.Items.Add("ID: " + dataReader["ID"].ToString() + ", Supermercado: " + dataReader["nombre"].ToString());
+                dataGridView1.Rows.Add(dataReader["ID"].ToString(), dataReader["localidad"].ToString(), dataReader["super"].ToString(), 
+                    dataReader["nombre"].ToString() + " " + dataReader["apellidos"].ToString()) ;
             }
             cnx.Close();
         }
@@ -45,9 +47,6 @@ namespace ProyectoFinal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Supermercado super = new Supermercado();
-            super.Show();
-            this.Hide();
         }
     }
 }
