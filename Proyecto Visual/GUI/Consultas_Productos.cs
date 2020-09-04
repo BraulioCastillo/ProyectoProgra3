@@ -18,7 +18,7 @@ namespace ProyectoFinal
         public SqlCommand cmd, command;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
+        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
         public Consultas_Productos()
         {
             InitializeComponent();
@@ -43,7 +43,7 @@ namespace ProyectoFinal
 
         private void btn_consultar_Click(object sender, EventArgs e)
         {
-            conex_art conexion = new conex_art("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True"); //WARNING!!!!!!!!!!!!!!!!!!!!! STRING DE CONEXION
+            conex_art conexion = new conex_art("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True"); //WARNING!!!!!!!!!!!!!!!!!!!!! STRING DE CONEXION
             DataSet ds = new DataSet();
             SqlDataAdapter da;
             DataRow dr;

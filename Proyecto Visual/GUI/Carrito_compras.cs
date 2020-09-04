@@ -19,7 +19,7 @@ namespace ProyectoFinal
         public SqlCommand cmd, command;
         public SqlConnection cnx;
         SqlDataReader dataReader;
-        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
+        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
         double totalFactura;
         public Carrito_compras()
         {
@@ -131,7 +131,7 @@ namespace ProyectoFinal
             }
             cnx.Close();
             #region Imagen
-            conex_art conexion = new conex_art("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True"); 
+            conex_art conexion = new conex_art("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True"); 
             DataSet ds = new DataSet();
             SqlDataAdapter da;
             DataRow dr;
@@ -180,8 +180,8 @@ namespace ProyectoFinal
             }
             catch (Exception)
             {
-                //throw;
-                //MessageBox.Show("Hubo un problema al agregar el detalle");
+                ////throw;
+                MessageBox.Show("Hubo un problema al agregar el detalle");
             }
         }
 

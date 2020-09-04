@@ -332,3 +332,63 @@ select f.fecha, f.monto, p.nombre, p.apellidos
 from Factura f
 join Persona p on p.ID = f.ID_usuario
 where f.ID = 1
+
+
+----------------------------------------------------------------------
+create procedure inserta_usuario
+@ID int,
+@contraseña varchar(50),
+@nombre varchar(50),
+@apellidos varchar(50),
+@telefono int,
+@email varchar(50),
+@direccion varchar(150),
+@rol varchar(15)
+ 
+as 
+insert into Persona(ID, contraseña, nombre, apellidos, telefono, email, direccion, rol)
+values (@ID, @contraseña, @nombre, @apellidos, @telefono, @email, @direccion, @rol)
+
+
+--------------------------------------------------------------------
+create proc Logueo
+@ID int,
+@contraseña varchar(50)
+as
+select nombre,apellidos,rol from Persona 
+where ID=@ID and contraseña=@contraseña
+ 
+go
+-------------------------
+ 
+create procedure inserta_usuario
+@ID int,
+@contraseña varchar(50),
+@nombre varchar(50),
+@apellidos varchar(50),
+@telefono int,
+@email varchar(50),
+@direccion varchar(150),
+@rol varchar(15)
+ 
+as 
+insert into Persona(ID, contraseña, nombre, apellidos, telefono, email, direccion, rol)
+values (@ID, @contraseña, @nombre, @apellidos, @telefono, @email, @direccion, @rol)
+ 
+--------------------------------------------------------
+------------
+go
+create procedure actualizar_usuario
+@ID int,
+@contraseña varchar(50),
+@nombre varchar(50),
+@apellidos varchar(50),
+@telefono int,
+@email varchar(50),
+@direccion varchar(150),
+@rol varchar(15)
+ 
+as 
+update Persona set contraseña = @contraseña, nombre = @nombre, apellidos = @apellidos, telefono = @telefono, email = @email, direccion = @direccion, rol = @rol where ID = @ID
+
+

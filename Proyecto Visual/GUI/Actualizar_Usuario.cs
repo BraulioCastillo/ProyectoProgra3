@@ -17,8 +17,8 @@ namespace ProyectoFinal
         public SqlCommand cmd, command;
         public SqlConnection cnx;
         SqlDataReader dataReader, dr;
-        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
-        D_Users conexion = new D_Users("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
+        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";//String conexion
+        D_Users conexion = new D_Users("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
         public Actualizar_Usuario()
         {
             InitializeComponent();

@@ -16,7 +16,7 @@ namespace Datos_
         private SqlCommand v_cmd;
         public SqlCommand cmd;
         public SqlConnection cnx;
-        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
+        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
 
 
         public conex_art(String conn)

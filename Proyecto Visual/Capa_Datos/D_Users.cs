@@ -17,9 +17,9 @@ namespace DATOS
         private SqlCommand v_cmd;
         public SqlCommand cmd;
         public SqlConnection cnx;
-        SqlConnection cn = new SqlConnection("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
+        SqlConnection cn = new SqlConnection("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
         //public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
-        public string conection = "Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
+        public string conection = "Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True";
         DataTable tblUsuarios;
         SqlDataAdapter adaptador;
 

@@ -9,12 +9,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace ProyectoFinal
 {
     public partial class Registro_Usuarios : Form
     {
-        D_Users conexion = new D_Users("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
+        D_Users conexion = new D_Users("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");
         public Registro_Usuarios()
         {
             InitializeComponent();
@@ -22,7 +23,9 @@ namespace ProyectoFinal
 
         private void btncancelar_Click(object sender, EventArgs e)
         {
+            Login1 login = new Login1();
             this.Close();
+            login.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

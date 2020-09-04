@@ -41,7 +41,7 @@
             this.btnConsultaFactura.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnConsultaFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConsultaFactura.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnConsultaFactura.Location = new System.Drawing.Point(263, 347);
+            this.btnConsultaFactura.Location = new System.Drawing.Point(12, 61);
             this.btnConsultaFactura.Name = "btnConsultaFactura";
             this.btnConsultaFactura.Size = new System.Drawing.Size(129, 49);
             this.btnConsultaFactura.TabIndex = 0;
@@ -55,7 +55,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(398, 347);
+            this.button2.Location = new System.Drawing.Point(147, 61);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(129, 49);
             this.button2.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSalir.Location = new System.Drawing.Point(678, 397);
+            this.btnSalir.Location = new System.Drawing.Point(434, 61);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(91, 41);
             this.btnSalir.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(156, 9);
+            this.label1.Location = new System.Drawing.Point(28, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(462, 40);
             this.label1.TabIndex = 4;
@@ -95,7 +95,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(778, 447);
+            this.ClientSize = new System.Drawing.Size(537, 134);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.button2);

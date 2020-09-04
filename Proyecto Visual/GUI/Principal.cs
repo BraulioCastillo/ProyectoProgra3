@@ -38,10 +38,10 @@ namespace WindowsFormsApp1
 
             {
                 btnsede.Enabled = false;
-                btnventas.Enabled = true;
-                btncompras.Enabled = false;
-                btnbodega.Enabled = true;
-                btnusuarios.Enabled = true;
+                btnventas.Enabled = false;
+                btncompras.Enabled = true;
+                btnbodega.Enabled = false;
+                btnusuarios.Enabled = false;
 
                 lblCargo.Text = "Cliente";
             }

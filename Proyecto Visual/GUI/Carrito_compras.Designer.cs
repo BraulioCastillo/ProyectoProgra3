@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Carrito_compras));
             this.gbx_consultar = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtDetalle = new System.Windows.Forms.TextBox();
             this.txtExistencias = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
@@ -56,13 +58,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txb_ID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.gbx_consultar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // gbx_consultar
@@ -87,11 +87,28 @@
             this.gbx_consultar.Margin = new System.Windows.Forms.Padding(4);
             this.gbx_consultar.Name = "gbx_consultar";
             this.gbx_consultar.Padding = new System.Windows.Forms.Padding(4);
-            this.gbx_consultar.Size = new System.Drawing.Size(904, 158);
+            this.gbx_consultar.Size = new System.Drawing.Size(915, 158);
             this.gbx_consultar.TabIndex = 9;
             this.gbx_consultar.TabStop = false;
             this.gbx_consultar.Text = "Consultar Productos";
             this.gbx_consultar.Enter += new System.EventHandler(this.gbx_consultar_Enter);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(778, 28);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(73, 20);
+            this.label7.TabIndex = 28;
+            this.label7.Text = "Cantidad";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(562, 25);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(179, 108);
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
             // 
             // txtDetalle
             // 
@@ -231,7 +248,7 @@
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(923, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(940, 24);
             this.menuStrip1.TabIndex = 14;
             this.menuStrip1.Text = "msMenu";
             // 
@@ -339,29 +356,12 @@
             this.label6.Text = "lblFactura";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(562, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(179, 108);
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(778, 28);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 20);
-            this.label7.TabIndex = 28;
-            this.label7.Text = "Cantidad";
-            // 
             // Carrito_compras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(923, 540);
+            this.ClientSize = new System.Drawing.Size(940, 540);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txb_ID);
             this.Controls.Add(this.label2);
@@ -380,11 +380,11 @@
             this.Load += new System.EventHandler(this.Carrito_compras_Load);
             this.gbx_consultar.ResumeLayout(false);
             this.gbx_consultar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

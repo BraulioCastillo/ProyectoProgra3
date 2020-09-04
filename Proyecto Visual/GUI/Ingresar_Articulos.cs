@@ -14,7 +14,7 @@ namespace ProyectoFinal
     public partial class Ingresar_Articulos : Form
     {
 
-        conex_art conexion = new conex_art("Data Source=YASHIN-PC\\SQLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");  //WARNING STRING DE CONEXION
+        conex_art conexion = new conex_art("Data Source=BRAULIO\\SQSLEXPRESS;Initial Catalog=ProyectoFinal;Integrated Security=True");  //WARNING STRING DE CONEXION
         public Ingresar_Articulos()
         {
             InitializeComponent();
